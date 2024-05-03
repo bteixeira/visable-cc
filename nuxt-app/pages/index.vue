@@ -1,8 +1,8 @@
 <script setup lang="ts">
 
-import type {ProjectList} from '~/types/project'
+import type {Project} from '~/types/project'
 
-const { pending, data } = useFetch<ProjectList>('https://techport.nasa.gov/api/projects?updatedSince=2024-04-22')
+const { pending, data: projects } = useFetch<Project[]>('/api/projects')
 
 </script>
 
@@ -12,9 +12,9 @@ const { pending, data } = useFetch<ProjectList>('https://techport.nasa.gov/api/p
         Loading ...
     </div>
     <ul v-else>
-        <li v-for="project in data?.projects">
+        <li v-for="project in projects">
             <NuxtLink :to="`/${project.projectId}`">
-                Project #{{ project.projectId }} last updated on {{ project.lastUpdated }}
+                [{{ project.projectId }}] {{ project.title }} last updated on {{ project.lastUpdated }}
             </NuxtLink>
         </li>
     </ul>

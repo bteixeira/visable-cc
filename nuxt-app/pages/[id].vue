@@ -4,7 +4,7 @@ import type {Project} from '~/types/project'
 
 const route = useRoute()
 
-const { pending, data } = useFetch<{project: Project}>(`https://techport.nasa.gov/api/projects/${route.params.id}`)
+const { pending, data } = useFetch<Project>(`/api/projects/${route.params.id}`)
 
 </script>
 
@@ -13,8 +13,6 @@ const { pending, data } = useFetch<{project: Project}>(`https://techport.nasa.go
     <div v-if="pending">
         Loading ...
     </div>
-    <ul v-else>
-        {{ data?.project }}
-    </ul>
+    <pre v-else>{{ JSON.stringify(data, undefined, 4) }}</pre>
     Footer
 </template>
