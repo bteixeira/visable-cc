@@ -102,7 +102,11 @@ const buildLink = (params: Params) => {
 
         <ProjectList :projects="data?.projects || []"/>
     </div>
-    Footer
+
+    <v-footer class="align-end py-8">
+        <v-divider thickness="2"/>
+    </v-footer>
+
 </template>
 
 <style scoped>
