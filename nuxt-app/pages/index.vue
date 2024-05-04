@@ -75,13 +75,8 @@ const buildLink = (params: Params) => {
                 <NuxtLink :to="buildLink({page: n})">{{ n }}</NuxtLink>&nbsp;
             </span>
         </p>
-        <ul>
-            <li v-for="project in data?.projects">
-                <NuxtLink :to="`/${project.projectId}`">
-                    [{{ project.projectId }}] {{ project.title }} last updated on {{ project.lastUpdated }}
-                </NuxtLink>
-            </li>
-        </ul>
+
+        <ProjectList :projects="data?.projects || []"/>
     </div>
     Footer
 </template>
