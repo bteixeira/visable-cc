@@ -51,62 +51,92 @@ const buildLink = (params: Params) => {
 </script>
 
 <template>
-    Title
-    <div>
-        Your page size is:
-        <pre style="border: solid 1px gray; display: inline-block">{{ pageSize }}</pre>&nbsp;
-        <span v-for="pageSize in PAGE_SIZES">
+
+    <v-container>
+        <h1 class="text-h3">Browse projects</h1>
+        <div>
+            Your page size is:
+            <pre style="border: solid 1px gray; display: inline-block">{{ pageSize }}</pre>&nbsp;
+            <span v-for="pageSize in PAGE_SIZES">
             <NuxtLink :to="buildLink({pageSize, page: 1})">{{ pageSize }}</NuxtLink>&nbsp;
         </span>
 
-    </div>
-    <div v-if="pending">
-        Loading ...
-    </div>
-    <div v-else>
-        <p>
-            (total {{ data?.totalCount }} projects in {{ totalPages }} pages)
-            <v-pagination :length="totalPages" show-first-last-page density="compact" :model-value="page">
-                <template v-slot:first="props">
-                    <v-btn :to="buildLink({page: 1})" nuxt :disabled="props.disabled" variant="text" density="compact" icon :active="false">
-                        <v-icon icon="mdi-page-first"/>
-                    </v-btn>
-                </template>
-                <template v-slot:prev="props">
-                    <v-btn :to="buildLink({page: page - 1})" nuxt :disabled="props.disabled" variant="text" density="compact" icon :active="false">
-                        <v-icon icon="mdi-chevron-left"/>
-                    </v-btn>
-                </template>
+        </div>
+        <div v-if="pending">
+            Loading ...
+        </div>
+        <div v-else>
+            <p>
+                (total {{ data?.totalCount }} projects in {{ totalPages }} pages)
+                <v-pagination :length="totalPages" show-first-last-page density="compact" :model-value="page">
+                    <template v-slot:first="props">
+                        <v-btn
+                            :to="buildLink({page: 1})"
+                            nuxt
+                            :disabled="props.disabled"
+                            variant="text"
+                            density="compact"
+                            icon
+                            :active="false"
+                        >
+                            <v-icon icon="mdi-page-first"/>
+                        </v-btn>
+                    </template>
+                    <template v-slot:prev="props">
+                        <v-btn
+                            :to="buildLink({page: page - 1})"
+                            nuxt
+                            :disabled="props.disabled"
+                            variant="text"
+                            density="compact"
+                            icon
+                            :active="false"
+                        >
+                            <v-icon icon="mdi-chevron-left"/>
+                        </v-btn>
+                    </template>
 
-                <template v-slot:item="item">
-                    <div v-if="item.isActive" class="pagination-link -active">
-                        {{ item.page }}
-                    </div>
-                    <NuxtLink v-else :to="buildLink({page: item.page})" class="pagination-link">
-                        {{ item.page }}
-                    </NuxtLink>
-                </template>
+                    <template v-slot:item="item">
+                        <div v-if="item.isActive" class="pagination-link -active">
+                            {{ item.page }}
+                        </div>
+                        <NuxtLink v-else :to="buildLink({page: item.page})" class="pagination-link">
+                            {{ item.page }}
+                        </NuxtLink>
+                    </template>
 
-                <template v-slot:next="props">
-                    <v-btn :to="buildLink({page: page + 1})" nuxt :disabled="props.disabled" variant="text" density="compact" icon :active="false">
-                        <v-icon icon="mdi-chevron-right"/>
-                    </v-btn>
-                </template>
-                <template v-slot:last="props">
-                    <v-btn :to="buildLink({page: totalPages})" nuxt :disabled="props.disabled" variant="text" density="compact" icon :active="false">
-                        <v-icon icon="mdi-page-last"/>
-                    </v-btn>
-                </template>
-            </v-pagination>
-        </p>
+                    <template v-slot:next="props">
+                        <v-btn
+                            :to="buildLink({page: page + 1})"
+                            nuxt
+                            :disabled="props.disabled"
+                            variant="text"
+                            density="compact"
+                            icon
+                            :active="false"
+                        >
+                            <v-icon icon="mdi-chevron-right"/>
+                        </v-btn>
+                    </template>
+                    <template v-slot:last="props">
+                        <v-btn
+                            :to="buildLink({page: totalPages})"
+                            nuxt
+                            :disabled="props.disabled"
+                            variant="text"
+                            density="compact"
+                            icon
+                            :active="false"
+                        >
+                            <v-icon icon="mdi-page-last"/>
+                        </v-btn>
+                    </template>
+                </v-pagination>
+            </p>
 
-        <ProjectList :projects="data?.projects || []"/>
-    </div>
-
-    <v-footer class="align-end py-8">
-        <v-divider thickness="2"/>
-    </v-footer>
-
+            <ProjectList :projects="data?.projects || []"/>
+        </div>
+    </v-container>
 </template>
 
 <style scoped>
