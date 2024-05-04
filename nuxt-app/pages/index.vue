@@ -151,9 +151,7 @@ const buildLink = (params: Params) => {
             </v-col>
         </v-row>
 
-        <div v-if="pending">
-            Loading ...
-        </div>
+        <ProjectListSkeleton v-if="pending"/>
         <ProjectList v-else :projects="data?.projects || []"/>
     </v-container>
 </template>
