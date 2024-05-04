@@ -7,9 +7,10 @@
             </v-container>
         </v-app-bar>
 
-        <v-main>
+        <!-- Was using <vmain/> but it seems to have a bug currently that causes issues with SSR and hydration-->
+        <main class="pt-12">
             <NuxtPage/>
-        </v-main>
+        </main>
 
         <v-footer class="align-end py-8">
             <v-container>
