@@ -1,16 +1,22 @@
 import {type ProjectData, type ProjectList} from '~/types/project'
 
 export default defineEventHandler(async (event) => {
-    const pageSize = Number(getQuery(event).pageSize) || 10
+    const limit = Number(getQuery(event).limit) || 10
+    const offset = Number(getQuery(event).offset) || 0
     
-    const projects = await $fetch<ProjectList>('https://techport.nasa.gov/api/projects?updatedSince=2024-04-22')
+    const projectList = await $fetch<ProjectList>('https://techport.nasa.gov/api/projects?updatedSince=2024-04-22')
     
-    const projectsPage = projects.projects.slice(0, pageSize)
-    console.log('Page size', pageSize, 'projects', projectsPage.length)
+    const projectPage = projectList.projects.slice(offset, offset + limit)
+    console.log('Page size', limit, 'projects', projectPage.length)
     
-    const expanded = await Promise.all(
-        projectsPage.map(p => $fetch<ProjectData>(`https://techport.nasa.gov/api/projects/${p.projectId}`).then(p => p.project))
+    const expandedProjects = await Promise.all(
+        projectPage.map(p => $fetch<ProjectData>(`https://techport.nasa.gov/api/projects/${p.projectId}`).then(p => p.project))
     )
     
-    return expanded
+    return {
+        projects: expandedProjects,
+        limit,
+        offset,
+        totalCount: projectList.totalCount,
+    }
 })

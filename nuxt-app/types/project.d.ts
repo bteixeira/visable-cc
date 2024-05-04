@@ -81,3 +81,10 @@ publishedUrl	string
 Published URL of the taxonomy node
      */
 }
+
+export type PaginatedProjects = {
+    projects: Project[],
+    limit: number,
+    offset: number,
+    totalCount: number,
+}

@@ -9,6 +9,8 @@ const { pending, data } = useFetch<Project>(`/api/projects/${route.params.id}`)
 </script>
 
 <template>
+    <NuxtLink to="/">&lt; Back to all projects</NuxtLink>
+    <br/>
     Title
     <div v-if="pending">
         Loading ...
