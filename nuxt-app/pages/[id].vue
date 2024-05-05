@@ -62,7 +62,7 @@ const contacts = computed(() => {
     <div class="bg-blue-lighten-5">
         <v-container>
             <v-row>
-                <v-col xs="12" lg="6" offset-lg="2">
+                <v-col xs="12" lg="9" xl="6" offset-xl="2" xxl="4">
                     <h1 class="text-h3 my-16 title-heading">{{ data?.title }}</h1>
                 </v-col>
             </v-row>
@@ -77,8 +77,9 @@ const contacts = computed(() => {
     </v-container>
     <v-container>
         <v-row>
-            <v-col xs="12" md="9">
-                <v-card>
+
+            <v-col cols="12" md="6" lg="8">
+                <v-card v-if="data?.description">
                     <v-card-text>
                         <h2 class="text-h5 mb-4">Description</h2>
                         <p class="text-body-1 long-text">
@@ -86,7 +87,8 @@ const contacts = computed(() => {
                         </p>
                     </v-card-text>
                 </v-card>
-                <v-card class="mt-6">
+
+                <v-card v-if="data?.benefits" class="mt-6">
                     <v-card-text>
                         <h2 class="text-h5 mb-4">Benefits</h2>
                         <p class="text-body-1 long-text">
@@ -94,18 +96,20 @@ const contacts = computed(() => {
                         </p>
                     </v-card-text>
                 </v-card>
+
             </v-col>
-            <v-col xs="12" md="3">
+
+            <v-col cols="12" md="6" lg="4">
                 <v-card>
                     <v-list>
-                        <v-list-item>
+                        <v-list-item v-if="data?.website">
                             <NuxtLink :to="data?.website" target="_blank" class="text-blue">
                                 {{ data?.website }}
                             </NuxtLink>
                         </v-list-item>
                         <v-list-item title="Project ID:" :subtitle="data?.projectId"/>
-                        <v-list-item title="Acronym:" :subtitle="data?.acronym"/>
-                        <v-list-item title="Status:" :subtitle="data?.statusDescription"/>
+                        <v-list-item v-if="data?.acronym" title="Acronym:" :subtitle="data?.acronym"/>
+                        <v-list-item v-if="data?.statusDescription" title="Status:" :subtitle="data?.statusDescription"/>
                     </v-list>
                 </v-card>
 
@@ -123,7 +127,21 @@ const contacts = computed(() => {
                         </v-list-item>
                     </v-list>
                 </v-card>
+
+                <v-card class="mt-6">
+                    <v-card-title>Lead Organization</v-card-title>
+                    <OrganizationCardContent v-if="data?.leadOrganization" :organization="data.leadOrganization"/>
+                    <template v-if="data?.supportingOrganizations">
+                        <v-card-title>Supporting Organizations</v-card-title>
+                        <OrganizationCardContent v-for="organization in data.supportingOrganizations" :organization="organization"/>
+                    </template>
+                    <template v-if="data?.coFundingPartners">
+                        <v-card-title>Co-funding Organizations</v-card-title>
+                        <OrganizationCardContent v-for="organization in data.coFundingPartners" :organization="organization"/>
+                    </template>
+                </v-card>
             </v-col>
+
         </v-row>
 
         <v-expansion-panels class="mt-6">

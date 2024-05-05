@@ -146,7 +146,7 @@ const buildLink = (params: Params) => {
                 <v-select
                     id="select-page-size" density="compact" variant="outlined" :items="PAGE_SIZES" :model-value="pageSize"
                     label="Page size"
-                    @update:modelValue="(pageSize: number) => navigateTo(buildLink({pageSize}))"
+                    @update:modelValue="(pageSize: number) => navigateTo(buildLink({pageSize, page: 1}))"
                 />
             </v-col>
         </v-row>

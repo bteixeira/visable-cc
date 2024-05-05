@@ -85,7 +85,7 @@ export type Program = {
     description: string
     parentProgram?: Program
     parentProgramId?: number
-    responsibleMd: Organization
+    responsibleMd: Program
     responsibleMdId: number
     title: string
 }
@@ -95,7 +95,13 @@ export type Organization = {
     acronym: string
     fax: string
     isActive: boolean
-    location: Location
+    // location: Location
+    city: string
+    country: {
+        abbreviation: string
+        countryId: number
+        name: string
+    }
     locationId: number
     organizationName: string
     organizationType: LkuCode
