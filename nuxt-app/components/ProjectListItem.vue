@@ -21,7 +21,7 @@ const truncatedTitle = computed(() => {
     <NuxtLink :to="`/${project.projectId}`">
         <v-card elevation="4" class="card-full-height">
             <div class="card-contents">
-                <h3 :title="project.title" class="card-title">
+                <h3 :title="project.title" class="card-title text-blue">
                     {{ truncatedTitle }}
                 </h3>
                 <div class="card-body">

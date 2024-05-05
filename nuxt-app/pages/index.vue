@@ -1,26 +1,31 @@
 <script setup lang="ts">
 
 import type {PaginatedProjects} from '~/types/project'
+import {getUpdatedSinceDate} from '~/utils/date'
 
 type Params = {
-    pageSize?: number | string
-    page?: number | string
-    updatedSince?: string // Date
+    pageSize?: number
+    page?: number
+    updatedSince?: number
 }
 
 const DEFAULT_PAGE_SIZE = 10
 const DEFAULT_PAGE = 1
+const DEFAULT_UPDATED_SINCE = 14
 const PAGE_SIZES = [10, 25, 50]
 
 const route = useRoute()
 const pageSize = computed(() => Number(route.query.pageSize) || DEFAULT_PAGE_SIZE)
 const page = computed(() => Number(route.query.page) || DEFAULT_PAGE)
 const offset = computed(() => (page.value - 1) * pageSize.value)
+const updatedSince = computed(() => Number(route.query.updatedSince) || DEFAULT_UPDATED_SINCE)
+const updatedSinceDate = computed(() => getUpdatedSinceDate(updatedSince.value))
 
 const {pending, data} = useFetch<PaginatedProjects>('/api/projects', {
     query: {
         limit: pageSize,
-        offset: offset,
+        offset,
+        updatedSince: updatedSinceDate,
     },
 })
 
@@ -30,13 +35,18 @@ const buildLink = (params: Params) => {
     const query = {
         pageSize: pageSize.value,
         page: page.value,
+        updatedSince: updatedSince.value,
         ...params,
     } as Params
+
     if (query.pageSize === DEFAULT_PAGE_SIZE) {
         delete query.pageSize
     }
     if (query.page === DEFAULT_PAGE) {
         delete query.page
+    }
+    if (query.updatedSince === DEFAULT_UPDATED_SINCE) {
+        delete query.updatedSince
     }
 
     return {
@@ -44,6 +54,7 @@ const buildLink = (params: Params) => {
         query: {
             pageSize: query.pageSize?.toString(),
             page: query.page?.toString(),
+            updatedSince: query.updatedSince?.toString(),
         },
     }
 }
@@ -53,27 +64,29 @@ const buildLink = (params: Params) => {
 <template>
 
     <v-container>
-        <h1 class="text-h3">Browse projects</h1>
+        <h1 class="text-h3 mt-2 mb-6">Browse projects</h1>
 
         <v-row>
             <v-col cols="auto">
                 <v-select
-                    id="select-last-updated" density="compact" variant="outlined" :items="[
-                        'Last 7 days',
-                        'Last 14 days',
-                        'Last 30 days',
+                    id="select-updated-since" density="compact" variant="outlined" :model-value="updatedSince"
+                    :items="[
+                        {title: 'Last 7 days', value: 7},
+                        {title: 'Last 14 days', value: 14},
+                        {title: 'Last 30 days', value: 30},
                     ]"
                     label="Changed since"
                     class="d-inline-block"
+                    @update:modelValue="(value: number) => navigateTo(buildLink({updatedSince: value, page: 1}))"
                 />
             </v-col>
 
             <v-col>
-                Total: {{ data?.totalCount }} projects
+                Total: {{ data?.totalCount ?? 0 }} projects
             </v-col>
 
             <v-col>
-                <v-pagination :length="totalPages" show-first-last-page density="compact" :model-value="page">
+                <v-pagination v-if="totalPages > 0" :length="totalPages" show-first-last-page density="compact" :model-value="page">
                     <template v-slot:first="props">
                         <v-btn
                             :to="buildLink({page: 1})"
@@ -108,7 +121,7 @@ const buildLink = (params: Params) => {
                         <div v-else-if="item.page === '...'" class="pagination-link">
                             {{ item.page }}
                         </div>
-                        <NuxtLink v-else :to="buildLink({page: item.page})" class="pagination-link">
+                        <NuxtLink v-else :to="buildLink({page: Number(item.page)})" class="pagination-link">
                             {{ item.page }}
                         </NuxtLink>
                     </template>
@@ -146,13 +159,16 @@ const buildLink = (params: Params) => {
                 <v-select
                     id="select-page-size" density="compact" variant="outlined" :items="PAGE_SIZES" :model-value="pageSize"
                     label="Page size"
+                    class="d-inline-block"
+                    :disabled="totalPages === 0"
                     @update:modelValue="(pageSize: number) => navigateTo(buildLink({pageSize, page: 1}))"
                 />
             </v-col>
         </v-row>
 
         <ProjectListSkeleton v-if="pending"/>
-        <ProjectList v-else :projects="data?.projects || []"/>
+        <ProjectList v-else-if="totalPages > 0" :projects="data?.projects || []"/>
+        <NoResults v-else :reset-link="buildLink({updatedSince: undefined})"/>
     </v-container>
 </template>
 

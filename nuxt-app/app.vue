@@ -3,7 +3,9 @@
 
         <v-app-bar class="bg-teal" density="compact">
             <v-container>
-                <v-app-bar-title>TechPort Explorer</v-app-bar-title>
+                <v-app-bar-title>
+                    <NuxtLink to="/">TechPort Explorer</NuxtLink>
+                </v-app-bar-title>
             </v-container>
         </v-app-bar>
 
@@ -20,3 +22,5 @@
 
     </v-app>
 </template>
+<script setup lang="ts">
+</script>

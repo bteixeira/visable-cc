@@ -116,13 +116,14 @@ const contacts = computed(() => {
                 <v-card class="mt-6">
                     <v-card-title>All project contacts</v-card-title>
                     <v-list>
-                        <v-list-item v-for="[id, contact] in contacts" :key="id">
-                            <h6 class="text-subtitle-1">{{ contact.name }}</h6>
-                            <a v-if="contact.email" class="text-caption" :href="`mailto:${contact.email}`" target="_blank">{{ contact.email }}</a>
-                            <div>
+                        <v-list-item class="my-2" v-for="[id, contact] in contacts" :key="id">
+                            <h6 class="text-subtitle-1">{{ contact.name }}
                                 <v-chip v-for="type in contact.types" :color="ContactTypeConfig[type].color" variant="outlined" size="x-small">
                                     {{ ContactTypeConfig[type].label }}
                                 </v-chip>
+                            </h6>
+                            <div class="text-caption">
+                                <a v-if="contact.email" class="text-blue" :href="`mailto:${contact.email}`" target="_blank">{{ contact.email }}</a>
                             </div>
                         </v-list-item>
                     </v-list>
