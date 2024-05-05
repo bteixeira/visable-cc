@@ -25,66 +25,159 @@ export type Project = {
     benefits: string
     startDateString: string // The month and year the project was authorized to proceed.
     endDateString: string // The month and year the project is expected to complete its work.
-    startTrl: number //    The technology maturity (technology readiness level) of the project at its beginning.
+    startTrl: number // The technology maturity (technology readiness level) of the project at its beginning.
     currentTrl: number
     endTrl: number
     primaryTaxonomyNodes: TaxonomyNode[]
     additionalTaxonomyNodes: TaxonomyNode[]
-    // destinations	[...]
-    // program	program{...}
-    // responsibleMd	program{...}
-    // leadOrganization	organization{...}
-    // supportingOrganizations	[...]
-    // coFundingPartners	[...]
-    // statesWithWork	[...]
-    // programDirectors	[...]
-    // programManagers	[...]
-    // projectManagers	[...]
-    // principalInvestigators	[...]
-    // coInvestigators	[...]
+    destinations: LkuCode[]
+    program: Program
+    responsibleMd: Program
+    leadOrganization: Organization
+    supportingOrganizations: Organization[]
+    coFundingPartners: Organization[]
+    statesWithWork: Location[]
+    programDirectors: Contact[]
+    programManagers: Contact[]
+    projectManagers: Contact[]
+    principalInvestigators: Contact[]
+    coInvestigators: Contact[]
     website: string
-    // libraryItems	[...]
-    // stiDaas	[...]
+    libraryItems: LibraryItem[]
+    stiDaas: LibraryItem
     closeoutSummary: string
-    // closeoutDocuments	[...]
-    // primaryImage	libraryItem{...}
+    closeoutDocuments: LibraryItem[]    
+    primaryImage: LibraryItem
     viewCount: number
 }
 
 export type TaxonomyNode = {
-    /*
-    taxonomyNodeId	integer($int64)
-Unique identifier for the taxonomy node
+    taxonomyNodeId: number
+    taxonomyRootId: number
+    parentNodeId: number
+    level: number
+    code: string
+    title: string
+    definition: string
+    hasChildren: boolean
+    publishedUrl: string
+}
 
-taxonomyRootId	integer($int64)
-Unique identifier for the root of this taxonomy node
+export type LkuCode = {
+    lkuCodeId: number
+    code: string
+    description: string
+    lkuCodeTypeId: number
+    lkuCodeType: LkuCodeType
+    displayOrder: number
+}
 
-parentNodeId	integer($int64)
-Unique identifier for the taxonomy node/root that is the direct parent of this taxonomy node
+export type LkuCodeType = {
+    lkuCodeTypeId: number
+    codeType: string
+    description: string
+}
 
-level	integer($int64)
-The level of this node on the tree (0 being the root)
+export type Program = {
+    programId: number
+    acronym: string
+    active: boolean
+    description: string
+    parentProgram?: Program
+    parentProgramId?: number
+    responsibleMd: Organization
+    responsibleMdId: number
+    title: string
+}
 
-code	string
-Code of the taxonomy node
+export type Organization = {
+    organizationId: number
+    acronym: string
+    fax: string
+    isActive: boolean
+    location: Location
+    locationId: number
+    organizationName: string
+    organizationType: LkuCode
+    organizationTypeId: number
+    parentOrganizationId: number
+    phone: string
+    replacementOrganizationId: number
+    url: string
+    NAOrganization: boolean // True if the organization is in North America
+    external: boolean
+    linkCount: number
+    murepUnitId: number
+    ein: string // The employer identification number
+    uei: string // The unique entity identifier
+    dunsNumber: string // The DUNS number assigned to the organization.
+    msiData: Record<string, string>
+    setAsideData: string[]
+}
 
-title	string
-Title of the taxonomy node
+export type Location = {
+    locationId: number
+    addressLine1: string
+    addressLine2: string
+    city: string
+    locationType: LkuCode
+    locationTypeId: number
+    state: string
+    stateTerritoryName: string
+    zip: string
+    zip2: string
+    NALocation: string // True if this location is located in North America
+    country: LkuCode
+    countryId: number
+    shortLocationString: string
+}
 
-definition	string
-Definition of the taxonomy node
+export type Contact = {
+    contactId: number
+    displayOrder: number
+    fax: string
+    firstName: string
+    lastName: string
+    fullName: string
+    fullNameInverted: string
+    location: Location
+    locationId: number
+    middleInitial: string
+    organization: Organization
+    prefix: string
+    primaryEmail: string
+    secondaryEmail: string
+    suffix: string
+    title: string
+    workPhoneExtension: string
+    workPhone: string
+    receiveEmail: number // 1 if the contact is signed up to receive TechPort emails
+    // isPublicEmail: boolean
+    publicEmail: boolean
+}
 
-hasChildren	boolean
-Defines whether this node has children
+export type LibraryItem = {
+    id: number
+    title: string
+    contentType: LkuCode
+    files: File[]
+    description: string
+    url: string
+    publishedDateString: string
+    publishedBy: string
+}
 
-publishedUrl	string
-Published URL of the taxonomy node
-     */
+export type File = {
+    fileId: number
+    url: string
+    fileSize: number
+    fileExtension: string
+    fileName: string
 }
 
 export type PaginatedProjects = {
-    projects: Project[],
-    limit: number,
-    offset: number,
-    totalCount: number,
+    projects: Project[]
+    limit: number
+    offset: number
+    totalCount: number
 }
