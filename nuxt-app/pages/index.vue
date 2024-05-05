@@ -66,9 +66,10 @@ const buildLink = (params: Params) => {
     <v-container>
         <h1 class="text-h3 mt-2 mb-6">Browse projects</h1>
 
-        <v-row>
-            <v-col cols="auto">
+        <v-row class="align-center">
+            <v-col cols="6" md="auto">
                 <v-select
+                    hide-details
                     id="select-updated-since" density="compact" variant="outlined" :model-value="updatedSince"
                     :items="[
                         {title: 'Last 7 days', value: 7},
@@ -76,16 +77,21 @@ const buildLink = (params: Params) => {
                         {title: 'Last 30 days', value: 30},
                     ]"
                     label="Changed since"
-                    class="d-inline-block"
                     @update:modelValue="(value: number) => navigateTo(buildLink({updatedSince: value, page: 1}))"
                 />
             </v-col>
 
-            <v-col>
-                Total: {{ data?.totalCount ?? 0 }} projects
+            <v-col cols="6" md="auto" order-md="4">
+                <v-select
+                    hide-details
+                    id="select-page-size" density="compact" variant="outlined" :items="PAGE_SIZES" :model-value="pageSize"
+                    label="Page size"
+                    :disabled="totalPages === 0"
+                    @update:modelValue="(pageSize: number) => navigateTo(buildLink({pageSize, page: 1}))"
+                />
             </v-col>
 
-            <v-col>
+            <v-col cols="12" md="auto" order-md="3">
                 <v-pagination v-if="totalPages > 0" :length="totalPages" show-first-last-page density="compact" :model-value="page">
                     <template v-slot:first="props">
                         <v-btn
@@ -156,14 +162,9 @@ const buildLink = (params: Params) => {
             </v-col>
 
             <v-col>
-                <v-select
-                    id="select-page-size" density="compact" variant="outlined" :items="PAGE_SIZES" :model-value="pageSize"
-                    label="Page size"
-                    class="d-inline-block"
-                    :disabled="totalPages === 0"
-                    @update:modelValue="(pageSize: number) => navigateTo(buildLink({pageSize, page: 1}))"
-                />
+                Total: {{ data?.totalCount ?? 0 }} projects
             </v-col>
+
         </v-row>
 
         <ProjectListSkeleton v-if="pending"/>
