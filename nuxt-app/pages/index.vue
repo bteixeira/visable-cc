@@ -91,7 +91,7 @@ const buildLink = (params: Params) => {
                 />
             </v-col>
 
-            <v-col cols="12" md="auto" order-md="3">
+            <v-col order-md="3">
                 <v-pagination v-if="totalPages > 0" :length="totalPages" show-first-last-page density="compact" :model-value="page">
                     <template v-slot:first="props">
                         <v-btn
@@ -161,7 +161,7 @@ const buildLink = (params: Params) => {
                 </v-pagination>
             </v-col>
 
-            <v-col>
+            <v-col class="text-no-wrap text-right text-md-left">
                 Total: {{ data?.totalCount ?? 0 }} projects
             </v-col>
 

@@ -1,10 +1,14 @@
 <template>
     <v-app>
 
-        <v-app-bar class="bg-teal" density="compact">
+        <v-app-bar class="bg-indigo" density="compact">
             <v-container>
                 <v-app-bar-title>
-                    <NuxtLink to="/">TechPort Explorer</NuxtLink>
+                    <NuxtLink to="/" class="font-weight-bold">TechPort Explorer</NuxtLink>
+                    &nbsp;
+                    <v-icon icon="mdi-death-star-variant"/>
+                    <v-icon icon="mdi-death-star-variant"/>
+                    <v-icon icon="mdi-death-star-variant"/>
                 </v-app-bar-title>
             </v-container>
         </v-app-bar>

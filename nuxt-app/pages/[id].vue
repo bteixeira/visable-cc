@@ -19,7 +19,7 @@ type SummarizedContact = {
     email?: string
     types: Set<ContactType>
 }
-const ContactTypeConfig: Record<ContactType, {color: string, label: string}> = {
+const ContactTypeConfig: Record<ContactType, { color: string, label: string }> = {
     programDirectors: {color: 'primary', label: 'Program Director'},
     programManagers: {color: 'blue-darken-1', label: 'Program Manager'},
     projectManagers: {color: 'light-blue-lighten-1', label: 'Project Manager'},
@@ -49,7 +49,13 @@ const contacts = computed(() => {
         })
     }
 
-    (['programDirectors', 'programManagers', 'projectManagers', 'principalInvestigators', 'coInvestigators'] as const).forEach(
+    ([
+        'programDirectors',
+        'programManagers',
+        'projectManagers',
+        'principalInvestigators',
+        'coInvestigators',
+    ] as const).forEach(
         processContacts)
 
     return result
@@ -59,49 +65,63 @@ const contacts = computed(() => {
 
 <template>
 
-    <div class="bg-blue-lighten-5">
+    <div class="bg-blue">
         <v-container>
             <v-row>
                 <v-col xs="12" lg="9" xl="6" offset-xl="2" xxl="4">
-                    <h1 class="text-h3 my-16 title-heading">{{ data?.title }}</h1>
+                    <div v-if="pending" class="my-16">
+                        <v-skeleton-loader v-for="n in 3" type="heading" class="bg-transparent"/>
+                    </div>
+                    <h1 v-else class="text-h3 my-16 title-heading font-italic">{{ data?.title }}</h1>
                 </v-col>
             </v-row>
         </v-container>
     </div>
 
-    <v-container fluid>
-        <NuxtLink to="/">
+    <v-container>
+        <NuxtLink to="/" class="text-blue">
             <v-icon icon="mdi-chevron-left"/>
             Back to all projects
         </NuxtLink>
-    </v-container>
-    <v-container>
-        <v-row>
+
+        <v-row class="mt-4">
 
             <v-col cols="12" md="6" lg="8">
-                <v-card v-if="data?.description">
+                <v-card v-if="pending">
                     <v-card-text>
-                        <h2 class="text-h5 mb-4">Description</h2>
-                        <p class="text-body-1 long-text">
-                            {{ sanitizeHtml(data?.description || '', {allowedTags: []}) }}
-                        </p>
+                        <v-skeleton-loader type="heading"/>
+                        <v-skeleton-loader type="paragraph"/>
+                        <v-skeleton-loader type="paragraph"/>
                     </v-card-text>
                 </v-card>
+                <template v-else>
+                    <v-card v-if="data?.description">
+                        <v-card-text>
+                            <h2 class="text-h5 mb-4">Description</h2>
+                            <p class="text-body-1 long-text">
+                                {{ sanitizeHtml(data?.description || '', {allowedTags: []}) }}
+                            </p>
+                        </v-card-text>
+                    </v-card>
 
-                <v-card v-if="data?.benefits" class="mt-6">
-                    <v-card-text>
-                        <h2 class="text-h5 mb-4">Benefits</h2>
-                        <p class="text-body-1 long-text">
-                            {{ sanitizeHtml(data?.benefits || '', {allowedTags: []}) }}
-                        </p>
-                    </v-card-text>
-                </v-card>
+                    <v-card v-if="data?.benefits" class="mt-6">
+                        <v-card-text>
+                            <h2 class="text-h5 mb-4">Benefits</h2>
+                            <p class="text-body-1 long-text">
+                                {{ sanitizeHtml(data?.benefits || '', {allowedTags: []}) }}
+                            </p>
+                        </v-card-text>
+                    </v-card>
+                </template>
 
             </v-col>
 
             <v-col cols="12" md="6" lg="4">
                 <v-card>
-                    <v-list>
+                    <v-card-text v-if="pending">
+                        <v-skeleton-loader v-for="n in 3" type="text"/>
+                    </v-card-text>
+                    <v-list v-else>
                         <v-list-item v-if="data?.website">
                             <NuxtLink :to="data?.website" target="_blank" class="text-blue">
                                 {{ data?.website }}
@@ -109,53 +129,80 @@ const contacts = computed(() => {
                         </v-list-item>
                         <v-list-item title="Project ID:" :subtitle="data?.projectId"/>
                         <v-list-item v-if="data?.acronym" title="Acronym:" :subtitle="data?.acronym"/>
-                        <v-list-item v-if="data?.statusDescription" title="Status:" :subtitle="data?.statusDescription"/>
+                        <v-list-item
+                            v-if="data?.statusDescription"
+                            title="Status:"
+                            :subtitle="data?.statusDescription"
+                        />
                     </v-list>
                 </v-card>
 
                 <v-card class="mt-6">
-                    <v-card-title>All project contacts</v-card-title>
-                    <v-list>
-                        <v-list-item class="my-2" v-for="[id, contact] in contacts" :key="id">
-                            <h6 class="text-subtitle-1">{{ contact.name }}
-                                <v-chip v-for="type in contact.types" :color="ContactTypeConfig[type].color" variant="outlined" size="x-small">
-                                    {{ ContactTypeConfig[type].label }}
-                                </v-chip>
-                            </h6>
-                            <div class="text-caption">
-                                <a v-if="contact.email" class="text-blue" :href="`mailto:${contact.email}`" target="_blank">{{ contact.email }}</a>
-                            </div>
-                        </v-list-item>
-                    </v-list>
+                    <v-card-text v-if="pending">
+                        <v-skeleton-loader v-for="n in 3" type="text"/>
+                    </v-card-text>
+                    <template v-else>
+                        <v-card-title>All project contacts</v-card-title>
+                        <v-list>
+                            <v-list-item class="my-2" v-for="[id, contact] in contacts" :key="id">
+                                <h6 class="text-subtitle-1">{{ contact.name }}
+                                    <v-chip
+                                        v-for="type in contact.types"
+                                        :color="ContactTypeConfig[type].color"
+                                        variant="outlined"
+                                        size="x-small"
+                                    >
+                                        {{ ContactTypeConfig[type].label }}
+                                    </v-chip>
+                                </h6>
+                                <div class="text-caption">
+                                    <a
+                                        v-if="contact.email"
+                                        class="text-blue"
+                                        :href="`mailto:${contact.email}`"
+                                        target="_blank"
+                                    >{{ contact.email }}</a>
+                                </div>
+                            </v-list-item>
+                        </v-list>
+                    </template>
                 </v-card>
 
-                <v-card class="mt-6">
+                <v-card class="mt-6" v-if="!pending">
                     <v-card-title>Lead Organization</v-card-title>
-                    <OrganizationCardContent v-if="data?.leadOrganization" :organization="data.leadOrganization"/>
+                    <OrganizationCardContent v-if="data?.leadOrganization" :organization="data!.leadOrganization"/>
                     <template v-if="data?.supportingOrganizations">
                         <v-card-title>Supporting Organizations</v-card-title>
-                        <OrganizationCardContent v-for="organization in data.supportingOrganizations" :organization="organization"/>
+                        <OrganizationCardContent
+                            v-for="organization in data?.supportingOrganizations"
+                            :organization="organization"
+                        />
                     </template>
                     <template v-if="data?.coFundingPartners">
                         <v-card-title>Co-funding Organizations</v-card-title>
-                        <OrganizationCardContent v-for="organization in data.coFundingPartners" :organization="organization"/>
+                        <OrganizationCardContent
+                            v-for="organization in data?.coFundingPartners"
+                            :organization="organization"
+                        />
                     </template>
                 </v-card>
             </v-col>
 
         </v-row>
 
-        <v-expansion-panels class="mt-6">
+        <v-card v-if="pending" class="mt-6">
+            <v-card-text>
+                <v-skeleton-loader type="text"/>
+            </v-card-text>
+        </v-card>
+        <v-expansion-panels v-else class="mt-6">
             <v-expansion-panel title="Raw JSON for debugging">
-                    <v-expansion-panel-text>
-                        <pre class="raw-json">{{ JSON.stringify(data, undefined, 4) }}</pre>
-                    </v-expansion-panel-text>
+                <v-expansion-panel-text>
+                    <pre class="raw-json">{{ JSON.stringify(data, undefined, 4) }}</pre>
+                </v-expansion-panel-text>
             </v-expansion-panel>
         </v-expansion-panels>
 
-        <div v-if="pending">
-            Loading ...
-        </div>
     </v-container>
 
 </template>
