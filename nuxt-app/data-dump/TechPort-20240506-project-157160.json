@@ -1,0 +1,149 @@
+{
+    "acronym": "",
+    "projectId": 157160,
+    "title": "NASA SERVIR-Nepal Air Quality Explorer UI/UX Challenge",
+    "description": "The project would build the Hindu Kush-Himalayan (HKH) air quality explorer tool using crowd based freelance methodology similar to Mekong air quality explorer tool, but with improved features. Some of the improvements would be: smooth loading the map, better graphics and additional format for download such as CSV.",
+    "startYear": 2022,
+    "startMonth": 9,
+    "endYear": 2023,
+    "endMonth": 8,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 4119703,
+            "canUserEdit": false,
+            "firstName": "HONG",
+            "lastName": "KIM",
+            "fullName": "Hong Kim",
+            "fullNameInverted": "KIM, Hong",
+            "primaryEmail": "hong.kim@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "MSFC",
+        "canUserEdit": false,
+        "city": "Huntsville",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4854,
+        "organizationName": "Marshall Space Flight Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        "stateTerritoryId": 18,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10249,
+            "organizationName": "CrowdPlat Inc.",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 13,
+    "endDateString": "Aug 2023",
+    "startDateString": "Sep 2022"
+}

@@ -1,0 +1,192 @@
+{
+    "acronym": "",
+    "projectId": 157152,
+    "title": "CC21 NASA Air-athon: Predict Air Quality",
+    "benefits": "<p>Github repo: https://github.com/drivendataorg/nasa-airathon The top model for the PM2.5 track achieved an R-squared value of 0.81 and the top model for the NO2 track achieved an R-squared value of 0.48, representing significant improvement over baseline measures. See results blog post for more information: https://www.drivendata.co/blog/nasa-airathon-winners/<br />Significantly Advanced Towards a Solution<br />Planned for future implementation<br />Algorithm</p>",
+    "description": "Air pollution is one of the greatest environmental threats to human health. Currently, no single satellite provides ready-to-use, high resolution information on surface-level air pollutants. This gap in information means that millions of people may not be able to take daily action to monitor air quality and manage their exposure to protect their health. The goal of this challenge is to generate daily estimates of surface-level NO 2 and PM2.5 across 5-kilometer grid spacing across three urban areas: Los Angeles South Coast Air Basin, United States; Delhi, India; and Taipei, Taiwan. NO 2 refers to nitrogen dioxide, which lasts less than a day in the atmosphere, but can lead to respiratory and asthma issues and the formation of other harmful pollutants, such as ozone and particulate matter. PM2.5 refers to particulate matter less than 2.5 micrometers in size. It can last days to weeks in the atmosphere and penetrate deep into human lungs, resulting in major health concerns. Existing ground monitors are expensive and have large gaps in coverage. Models that make use of widely available, low-cost sensor data and satellite imagery have the potential to provide local, daily air quality information to hundreds of thousands of people. The Challenge: NASA Air-athon requires solvers to use satellite imagery, low-cost sensor data, and meteorological data to develop models for estimating daily levels of PM2.5 and NO 2 with high spatial resolution The Prize: Top ideas will share a total prize purse of $50,000 To accept the challenge, visit https://airathon.drivendata.org/",
+    "startYear": 2021,
+    "startMonth": 9,
+    "endYear": 2022,
+    "endMonth": 6,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 829,
+            "canUserEdit": false,
+            "firstName": "Aaron",
+            "lastName": "Naeger",
+            "fullName": "Aaron R Naeger",
+            "fullNameInverted": "Naeger, Aaron R",
+            "middleInitial": "R",
+            "primaryEmail": "aaron.naeger@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "MSFC",
+        "canUserEdit": false,
+        "city": "Huntsville",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4854,
+        "organizationName": "Marshall Space Flight Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        "stateTerritoryId": 18,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10255,
+            "organizationName": "Driven Data Inc.",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9781,
+            "organizationName": "DrivenData",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "acronym": "JPL",
+            "canUserEdit": false,
+            "city": "Pasadena",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4946,
+            "organizationName": "Jet Propulsion Laboratory",
+            "organizationType": "FFRDC_2fUARC",
+            "stateTerritory": {
+                "abbreviation": "CA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "California",
+                "stateTerritoryId": 59
+            },
+            "stateTerritoryId": 59,
+            "organizationTypePretty": "FFRDC/UARC",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 9,
+    "endDateString": "Jun 2022",
+    "startDateString": "Sep 2021"
+}

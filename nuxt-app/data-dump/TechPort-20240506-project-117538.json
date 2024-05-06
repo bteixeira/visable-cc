@@ -1,0 +1,194 @@
+{
+    "acronym": "",
+    "projectId": 117538,
+    "title": "CC20 Common Restraint and Mobility Aid System for Multiple Gravity Environments",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10713,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10712,
+            "level": 3,
+            "code": "TX06.6.1",
+            "title": "Human Factors Engineering",
+            "definition": "Human factors engineering focuses on ensuring that the system design is integrated and compatible with human tasks, and the sensory, perceptual, mental, and physical attributes of the user personnel who will operate, control, maintain, train, and support the equipment, system, or facility throughout its life cycle.",
+            "exampleTechnologies": "Frameworks for dynamic multi-agent function allocation, advanced user interfaces, tools to augment human physical and cognitive performance, integrated human-system verification and validation (V&V) methods, human physical and cognitive performance models, human-systems interfaces for increased autonomy and new environments, new con-ops models for crew-vehicle-ground interactions.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>First Place Daedalus Project by abner.gomez-2 Daedalus Project Very innovative concept. Thank you for you the detailed info and well-thought out solutions across multiple scenario types. Excellent report deriving solution from functional requirements. Addresses restraint, mobility and stability in 0g and transition to gravity environment. Multifaceted solution set includes standing, walking, and inter-deck translation support. Second Place Restraint Chair and Folding Ladder. by aniruddha.nayak-1 Restraint Chair and Folding Ladder. This is a very well thought out system. The simplicity and adjustability of it is very innovative. Restraint seat that can work in all gravity and a folding ladder system that can be reconfigured to a closed hatch. Very nice description in the document. I appreciate that you addressed different aspects of the challenge, postural support and translation between decks. The rotating rungs on the folding ladder are a good innovation - will need to ensure they are geared such that they cannot open when the ladder is in the closed position. The open hatch position is very interesting, but not sure if it will ever be needed. Your report is clear and well written. Good job. Third Place gecko feet shoes by azer.tim-1 gecko feet shoes This is a very interesting concept. I can see this concept having potential in a very low or microgravity environment. The pneumatic control is an interesting enhancement to gecko-inspired adhesion. This would be a good solution, particularly given that it is most effective on smooth surfaces and smooth surfaces are preferred from a dust mitigation standpoint. Fun idea. Like the idea of using nature as inspiration for design challenges! Fourth Place Integrated Slot and Cleat RAM System by whit-3 Integrated Slot and Cleat RAM System This is a very interesting, and well thought out concept. Innovative solution. Excellent understanding of proper process of design that is based on identified use cases. I especially like the \"embedded\" handhold extrusion for mobility in microgravity. I imagine that this concept would work for lunar gravity as well for stability. I also like the fact that one can attach into the extrusion to anchor cargo, or to work at a longer duration stationary workstation. May consider same rail system for the ladder cage/elevator design, which currently stands as a separately designed system. This is a viable concept and it shows promise. The slots and cleats will enable motion in microgravity environments without being hindrances in gravity fields. Fifth Place Multipurpose Peg and Rail System by trevor.tietgen-1 Multipurpose Peg and Rail System Great idea! This is a well thought out and comprehensive system. It is mainly configured for gravity environments but won't interfere with use in a microgravity environment. One of the best submitted proposals for fall protection. Trolley is reasonably good for moving cargo but could be improved to address<br />Significantly Advanced Towards a Solution<br />Not Applicable<br />CAD/Mech Design</p>",
+    "description": "This problem is in support of the Common Habitat, a design study seeking to develop a single habitat architecture that functions on the Moon, Mars, in microgravity transit, and as an Earth trainer/analogue. The advantage of such a design is a single design and procurement activity can provide for all four needs. NASA funding levels may not allow the Agency to develop highly capable habitats for the Moon, Mars, and Mars transit all in parallel and spreading these out in series could increase the time required to prepare missions to Mars. This challenge addresses a key component of the Common Habitat. Properly designed and placed, restraints and mobility aids enable the crew to live and work effectively in space, on the Moon, and on Mars. It will also enable crews to train on Earth like they will operate on their missions. But improper design or placement can reduce work efficiency, cause crew injury, result in equipment damage, or even lead to loss of life. Thus, a common restraints and mobility aids solution that works in all gravity environments is a critical element to a truly Common Habitat.",
+    "startYear": 2020,
+    "startMonth": 6,
+    "endYear": 2020,
+    "endMonth": 9,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 400690,
+            "canUserEdit": false,
+            "firstName": "Robert",
+            "lastName": "Howard",
+            "fullName": "Robert L Howard",
+            "fullNameInverted": "Howard, Robert L",
+            "middleInitial": "L",
+            "primaryEmail": "robert.l.howard@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19203,
+            "projectId": 117538,
+            "transitionDate": "2020-09-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "September 2020"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Cambridge",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9383,
+            "organizationName": "GrabCAD",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "MA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Massachusetts",
+                "stateTerritoryId": 30
+            },
+            "stateTerritoryId": 30,
+            "dunsNumber": "         ",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 95,
+    "endDateString": "Sep 2020",
+    "startDateString": "Jun 2020"
+}

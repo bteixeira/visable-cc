@@ -1,0 +1,276 @@
+{
+    "acronym": "",
+    "projectId": 95606,
+    "title": "CO2 Conversion Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10724,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10721,
+            "level": 3,
+            "code": "TX07.1.3",
+            "title": "Resource Processing for Production of Mission Consumables",
+            "definition": "This area covers resource processing technologies that produce mission consumables, such as water, breathable oxygen, inert gases, and propellants, from pre-processed resources.",
+            "exampleTechnologies": "Instruments and devices functioning in the relevant gravity environment including: thermal/mechanical components and reactors to extract end-product resources from inert materials (e.g. thermal reactors for volatile extraction from regolith); chemical, electrochemical, and biological materials, catalysts, components, and reactors to extract and combine resources to produce end-products (e.g. catalytic reactors to produce methane, electrolysis devices to produce oxygen, etc.); phase-change devices to extract or distill end-product gases from by-product recycling sources (e.g. cryocoolers for gas product drying); filtration and purification devices for meeting mission-critical end use requirements; crosscutting technologies for enhancing production system durability and reliability in harsh environments (e.g. dust tolerant seals and bearings); crosscutting technologies for utilizing sources of high-temperature thermal energy for process-heating (e.g. integrated solar concentrators); and models and simulations to identify and quantify opportunities for systemic reductions in power requirements and enhancements in durability and reliability for resource processing systems",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "additionalTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10683,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10682,
+            "level": 3,
+            "code": "TX06.1.1",
+            "title": "Atmosphere Revitalization",
+            "definition": "Atmosphere revitalization maintains a safe and habitable atmosphere within a spacecraft, surface vehicle, or habitat.",
+            "exampleTechnologies": "CO2 removal (closed loop), oxygen recovery, trace contaminant control, particulate and microbial control, cabin ventilation, oxygen supply, high-pressure oxygen supply",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "startTrl": 2,
+    "currentTrl": 3,
+    "endTrl": 3,
+    "benefits": "<p>Future planetary habitats on Mars will require a high degree of self-sufficiency. This requires a concerted effort to both effectively recycle supplies brought from Earth and use local resources such as CO₂, water and regolith to manufacture mission-relevant products. CO₂ is a readily available source of carbon that can be easily obtained from the Martian atmosphere and as a by-product of human metabolism. This carbon (and oxygen) is an essential ingredient in making organic mission products such as food, nutrients, medicines, plastics, fuels, and adhesives. While carbon-containing molecules may be present in mission waste products or in planetary soils, these materials are difficult to use as feedstock for effective manufacturing processes.</p>",
+    "description": "<p>NASA's CO2 Conversion Challenge is a $1 million competition to convert carbon dioxide into mission-critical resources. Such technologies will allow us to manufacture products using local, indigenous resources on Mars, and can also be implemented on Earth by using both waste and atmospheric carbon dioxide as a resource.</p>",
+    "startYear": 2018,
+    "startMonth": 8,
+    "endYear": 2021,
+    "endMonth": 6,
+    "statusDescription": "Completed",
+    "principalInvestigators": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        },
+        {
+            "contactId": 117493,
+            "canUserEdit": false,
+            "firstName": "Denise",
+            "lastName": "Morris",
+            "fullName": "Denise P Morris",
+            "fullNameInverted": "Morris, Denise P",
+            "middleInitial": "P",
+            "primaryEmail": "denise.morris@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "https://www.nasa.gov/directorates/spacetech/home/index.html",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 310469,
+            "title": "Challenge Website",
+            "description": "",
+            "libraryItemTypeId": 762,
+            "projectId": 95606,
+            "primary": false,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "https://www.co2conversionchallenge.org/",
+            "contentType": {
+                "lkuCodeId": 762,
+                "code": "LINK",
+                "description": "Link",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        },
+        {
+            "files": [],
+            "id": 310480,
+            "title": "CO2 Conversion Challenge",
+            "description": "Team Air Company prepares materials for judging. Credits: NASA/Amanda Adams",
+            "libraryItemTypeId": 1095,
+            "projectId": 95606,
+            "primary": true,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "",
+            "contentType": {
+                "lkuCodeId": 1095,
+                "code": "IMAGE",
+                "description": "Image",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "transitionId": 19235,
+            "projectId": 95606,
+            "transitionDate": "2021-06-01",
+            "path": "Closed Out",
+            "url": "https://www.nasa.gov/directorates/spacetech/centennial_challenges/75K-awarded-in-competition-to-convert-carbon-dioxide-into-sugar.html",
+            "details": "<p>Phase 2 of CO2 concluded 6/25/2021.  This challenge is now closed.</p>",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "June 2021"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "MSFC",
+        "canUserEdit": false,
+        "city": "Huntsville",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4854,
+        "organizationName": "Marshall Space Flight Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        "stateTerritoryId": 18,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 467,
+            "organizationName": "Common Pool",
+            "organizationType": "Industry",
+            "dunsNumber": "969023519",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "statesWithWork": [
+        {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 385,
+    "endDateString": "Jun 2021",
+    "startDateString": "Aug 2018"
+}

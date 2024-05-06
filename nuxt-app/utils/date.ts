@@ -11,6 +11,5 @@ export function formatISODate (date: Date) {
 export function getUpdatedSinceDate (daysAgo: number): string {
     const now = new Date()
     const updatedSince = subtractDate(now, daysAgo)
-    console.log('Updated since', daysAgo, updatedSince)
     return formatISODate(updatedSince)
 }

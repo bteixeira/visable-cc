@@ -1,0 +1,150 @@
+{
+    "acronym": "",
+    "projectId": 157157,
+    "title": "CC22 Rid the Rocket Challenge Phase 2: Prototype",
+    "description": "<p>The Rid the Rocket Challenge invites individuals, teams, and organizations to submit solutions for innovative ways to build a new chemical detection method that can be used by astronauts following space flight. The detection of Hydrazine/MMH is a critical safety procedure in space flight. It's expected that this challenge yield, qualified solutions that will be tested at the NASA White Sands facility.</p>",
+    "startYear": 2023,
+    "startMonth": 4,
+    "endYear": 2023,
+    "endMonth": 11,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 353186,
+            "canUserEdit": false,
+            "firstName": "Neil",
+            "lastName": "Paz",
+            "fullName": "Neil D Paz",
+            "fullNameInverted": "Paz, Neil D",
+            "middleInitial": "D",
+            "primaryEmail": "neil.d.paz@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "WSTF",
+        "canUserEdit": false,
+        "city": "Las Cruces",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4884,
+        "organizationName": "White Sands Test Facility",
+        "organizationType": "NASA_Facility",
+        "stateTerritory": {
+            "abbreviation": "NM",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "New Mexico",
+            "stateTerritoryId": 52
+        },
+        "stateTerritoryId": 52,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Facility"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9782,
+            "organizationName": "Floor23 Digital",
+            "organizationType": "Industry",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 8,
+    "endDateString": "Nov 2023",
+    "startDateString": "Apr 2023"
+}

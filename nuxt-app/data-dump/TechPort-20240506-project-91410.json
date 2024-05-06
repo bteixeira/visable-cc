@@ -1,0 +1,618 @@
+{
+    "acronym": "",
+    "projectId": 91410,
+    "title": "3D Printed Habitat - Design Competition",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10729,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10726,
+            "level": 3,
+            "code": "TX07.2.3",
+            "title": "Surface Construction and Assembly",
+            "definition": "Surface construction and assembly covers technologies for construction, assembly, disassembly, and reverse assembly of surface structures, including both traditional construction, assembly, and disassembly concepts and advanced systems.",
+            "exampleTechnologies": "Instruments and devices functioning in the relevant gravity environment, including consolidation and stabilization of regolith on large scales, including microwave and concentrated solar irradiation and the addition of physical or chemical additives; manufacturing of structural elements using feedstock derived from locally-produced and recycled materials; assembly of structural and environmental barrier systems from terrestrially-delivered and/or locally-derived elements; quality assurance and mission suitability of structural elements and environmental barrier systems constructed and assembled in-situ. Also includes design tools configured to accommodate broad-specification feedstock properties into design safety factors and manufacturing tolerances for construction and assembly systems, human-robotics (e.g. low-latency telerobotics), autonomous robotic systems",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "startTrl": 3,
+    "currentTrl": 5,
+    "endTrl": 5,
+    "benefits": "<p>The long-term vision is that habitat-manufacturing machines could someday be deployed to the Moon, Mars or beyond to autonomously prepare shelters for the human explorers who follow.</p>",
+    "description": "<p>The 3D-Printed Habitat Challenge seeks to develop the fundamental technologies necessary to manufacture habitats using indigenous materials, including recycled materials. The long-term vision is that habitat-manufacturing machines could someday be deployed for the Moon, Mars or beyond to autonomously prepare shelters for humans. The Design Competition is an architectural design activity which invites participants to design a habitat which utilizes additive construction advantages over traditional construction.</p>",
+    "startYear": 2015,
+    "startMonth": 5,
+    "endYear": 2015,
+    "endMonth": 9,
+    "statusDescription": "Completed",
+    "principalInvestigators": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        },
+        {
+            "contactId": 117493,
+            "canUserEdit": false,
+            "firstName": "Denise",
+            "lastName": "Morris",
+            "fullName": "Denise P Morris",
+            "fullNameInverted": "Morris, Denise P",
+            "middleInitial": "P",
+            "primaryEmail": "denise.morris@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "https://www.nasa.gov/directorates/spacetech/home/index.html",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19237,
+            "projectId": 91410,
+            "partner": "Other",
+            "transitionDate": "2014-11-01",
+            "path": "Advanced To",
+            "relatedProjectId": 91599,
+            "relatedProject": {
+                "acronym": "SSD",
+                "projectId": 91599,
+                "title": "100GB Rad Tolerant Solid State Drive (SSD), Year 1",
+                "startTrl": 3,
+                "currentTrl": 5,
+                "endTrl": 5,
+                "benefits": "<p>Every NASA mission fundamentally depends on nonvolatile memory, from C&DH to GNC to Science data and from cubesats to Class A projects. JPL has a history of well screened, aerospace grade flash memory causing significant to nearly catastrophic errors on a wide range of missions (MER, MSL). This effort would provide NASA missions with essentially unlimited radiation tolerant non-volatile storage that would completely change the type and quantity of science data collected and enable modern high speed, low power C&DH architectures, particularly required for JPL's strategic roadmap of Mobility and Autonomy. Other potential resources are R&TD, SBIR, DoD, Project funding.</p>",
+                "description": "Conduct a heavy ion test campaign to characterize single event induced errors and adapt and evolve initial successful FY15 TID methodologies and algorithms. Multiple bit upset rates and possible single event upsets and functional interrupts need to characterized and factored into the overall error correction and mitigation scheme. Evaluate our methodologies/approach on 3D NAND based MLC devices. This is a fundamentally new way to produce NAND devices and is the basis for all future NAND development. Significantly reduces inter-cell parasitic effects – improve cell reliability and stability. Error codes are expected to evolve/requires new test HW development. Optimize scrubbing rate, SLC/MLC/Rank Modulation application and in-situ programming and coding channel structure. Determine relative contributions to maximize survivability and define SSD architecture. Fabricate 100mil enclosure and repeat in-situ TID test. Determine maximum possible operational dose for practical operation w/ stand alone FPGA control.",
+                "startYear": 2014,
+                "startMonth": 11,
+                "endYear": 2015,
+                "endMonth": 9,
+                "statusDescription": "Completed",
+                "website": "https://www.nasa.gov/directorates/spacetech/home/index.html",
+                "program": {
+                    "acronym": "JPL CIF",
+                    "active": true,
+                    "description": "Through the Center Innovation Fund, the Space Technology Mission Directorate allocates a small portion of the NASA workforce and procurement budget to internal research and development to feed early stage innovation in technology and exploration. Activities with in the Center Innovation Fund are proposed and led by NASA scientists and engineers.  These activities and creative initiatives pursue emerging technologies that leverage talent and capabilities at the NASA Centers.    ",
+                    "parentProgram": {
+                        "acronym": "CIF",
+                        "active": true,
+                        "description": "<p>Through the Center Innovation Fund, the Space Technology Mission Directorate allocates a small portion of the NASA workforce and procurement budget to internal research and development to feed early stage innovation in technology and exploration.&nbsp;Activities with in the Center Innovation Fund are proposed and led by NASA scientists and engineers. &nbsp;These activities and creative initiatives pursue emerging technologies that leverage talent and capabilities at the NASA Centers.</p><p>&nbsp;</p><p>&nbsp;</p>",
+                        "programId": 64,
+                        "responsibleMd": {
+                            "acronym": "STMD",
+                            "canUserEdit": false,
+                            "city": "",
+                            "external": false,
+                            "linkCount": 0,
+                            "organizationId": 4875,
+                            "organizationName": "Space Technology Mission Directorate",
+                            "organizationType": "NASA_Mission_Directorate",
+                            "organizationTypePretty": "NASA Mission Directorate",
+                            "naorganization": false
+                        },
+                        "responsibleMdId": 4875,
+                        "stockImageFileId": 36643,
+                        "title": "Center Innovation Fund"
+                    },
+                    "parentProgramId": 64,
+                    "programId": 164,
+                    "responsibleMd": {
+                        "acronym": "STMD",
+                        "canUserEdit": false,
+                        "city": "",
+                        "external": false,
+                        "linkCount": 0,
+                        "organizationId": 4875,
+                        "organizationName": "Space Technology Mission Directorate",
+                        "organizationType": "NASA_Mission_Directorate",
+                        "organizationTypePretty": "NASA Mission Directorate",
+                        "naorganization": false
+                    },
+                    "responsibleMdId": 4875,
+                    "stockImageFileId": 36651,
+                    "title": "Center Innovation Fund: JPL CIF"
+                },
+                "lastUpdated": "2023-5-25",
+                "releaseStatusString": "Released",
+                "viewCount": 1192,
+                "endDateString": "Sep 2015",
+                "startDateString": "Nov 2014"
+            },
+            "infoText": "Advanced within the program",
+            "infoTextExtra": "Another project within the program (100GB Rad Tolerant Solid State Drive (SSD), Year 1)",
+            "dateText": "November 2014"
+        },
+        {
+            "transitionId": 19238,
+            "projectId": 91410,
+            "transitionDate": "2015-09-01",
+            "path": "Closed Out",
+            "url": "https://www.nasa.gov/directorates/spacetech/centennial_challenges/3DPHab/2015winners.html",
+            "details": "<p>NASA and the National Additive Manufacturing Innovation Institute, known as America Makes, hosted a $50,000 competition to design a 3D-printed habitat for deep space exploration, including the agency’s journey to Mars. The design competition was part of a larger, multi-phase 3D-Printed Habitat Challenge to advance the additive construction technology needed to create sustainable housing solutions for Earth and beyond. The first phase of the competition ran through Sept. 27, 2015. This phase, a design competition, called on participants to develop state-of-the-art architectural concepts that take advantage of the unique capabilities 3-D printing offers. The top 30 submissions were judged, and prize money was awarded at the 2015 World Maker Faire in New York.</p>",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "September 2015"
+        },
+        {
+            "transitionId": 19239,
+            "projectId": 91410,
+            "partner": "Other",
+            "transitionDate": "2016-10-01",
+            "path": "Advanced To",
+            "url": "",
+            "relatedProjectId": 94154,
+            "relatedProject": {
+                "acronym": "",
+                "projectId": 94154,
+                "title": "3D Printed Habitat - Structural Member Competition",
+                "startTrl": 3,
+                "currentTrl": 3,
+                "endTrl": 3,
+                "benefits": "<p>The long-term vision is that habitat-manufacturing machines could someday be deployed to the Moon, Mars or beyond to autonomously prepare shelters for the human explorers who follow.</p>",
+                "description": "<p>Structural Member: Demonstrate a recycling additive manufacturing material system that can create structural components using terrestrial/space based materials and recyclables.</p>",
+                "startYear": 2016,
+                "startMonth": 10,
+                "endYear": 2017,
+                "endMonth": 8,
+                "statusDescription": "Completed",
+                "website": "",
+                "program": {
+                    "acronym": "PCC",
+                    "active": true,
+                    "programId": 63,
+                    "responsibleMd": {
+                        "acronym": "STMD",
+                        "canUserEdit": false,
+                        "city": "",
+                        "external": false,
+                        "linkCount": 0,
+                        "organizationId": 4875,
+                        "organizationName": "Space Technology Mission Directorate",
+                        "organizationType": "NASA_Mission_Directorate",
+                        "organizationTypePretty": "NASA Mission Directorate",
+                        "naorganization": false
+                    },
+                    "responsibleMdId": 4875,
+                    "stockImageFileId": 36653,
+                    "title": "Prizes, Challenges, and Crowdsourcing"
+                },
+                "lastUpdated": "2024-4-22",
+                "releaseStatusString": "Released",
+                "viewCount": 447,
+                "endDateString": "Aug 2017",
+                "startDateString": "Oct 2016"
+            },
+            "details": "",
+            "infoText": "Advanced within the program",
+            "infoTextExtra": "Another project within the program (3D Printed Habitat - Structural Member Competition)",
+            "dateText": "October 2016"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "KSC",
+        "canUserEdit": false,
+        "city": "Kennedy Space Center",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4905,
+        "organizationName": "Kennedy Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "FL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Florida",
+            "stateTerritoryId": 46
+        },
+        "stateTerritoryId": 46,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4777,
+            "organizationName": "America Makes",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "acronym": "ARC",
+            "canUserEdit": false,
+            "city": "Moffett Field",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4941,
+            "organizationName": "Ames Research Center",
+            "organizationType": "NASA_Center",
+            "stateTerritory": {
+                "abbreviation": "CA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "California",
+                "stateTerritoryId": 59
+            },
+            "stateTerritoryId": 59,
+            "organizationTypePretty": "NASA Center",
+            "naorganization": false
+        },
+        {
+            "acronym": "DoD",
+            "canUserEdit": false,
+            "city": "Washington",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4835,
+            "organizationName": "Department of Defense",
+            "organizationType": "Other_US_Government",
+            "stateTerritory": {
+                "abbreviation": "DC",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "District of Columbia",
+                "stateTerritoryId": 26
+            },
+            "stateTerritoryId": 26,
+            "organizationTypePretty": "Other US Government",
+            "naorganization": false
+        },
+        {
+            "acronym": "GRC",
+            "canUserEdit": false,
+            "city": "Cleveland",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4860,
+            "organizationName": "Glenn Research Center",
+            "organizationType": "NASA_Center",
+            "stateTerritory": {
+                "abbreviation": "OH",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Ohio",
+                "stateTerritoryId": 23
+            },
+            "stateTerritoryId": 23,
+            "organizationTypePretty": "NASA Center",
+            "naorganization": false
+        },
+        {
+            "acronym": "MSFC",
+            "canUserEdit": false,
+            "city": "Huntsville",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4854,
+            "organizationName": "Marshall Space Flight Center",
+            "organizationType": "NASA_Center",
+            "stateTerritory": {
+                "abbreviation": "AL",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Alabama",
+                "stateTerritoryId": 18
+            },
+            "stateTerritoryId": 18,
+            "organizationTypePretty": "NASA Center",
+            "naorganization": false
+        },
+        {
+            "acronym": "USAID",
+            "canUserEdit": false,
+            "city": "Washington",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 2397,
+            "organizationName": "United States Agency for International Development",
+            "organizationType": "Other_US_Government",
+            "stateTerritory": {
+                "abbreviation": "DC",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "District of Columbia",
+                "stateTerritoryId": 26
+            },
+            "stateTerritoryId": 26,
+            "organizationTypePretty": "Other US Government",
+            "naorganization": false
+        }
+    ],
+    "coFundingPartners": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 2530,
+            "organizationName": "Advanced Combustion via Microgravity Experiments",
+            "organizationType": "NASA_Other",
+            "organizationTypePretty": "NASA Other",
+            "naorganization": false
+        }
+    ],
+    "statesWithWork": [
+        {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        },
+        {
+            "abbreviation": "CO",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Colorado",
+            "stateTerritoryId": 15
+        },
+        {
+            "abbreviation": "FL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Florida",
+            "stateTerritoryId": 46
+        },
+        {
+            "abbreviation": "GA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Georgia",
+            "stateTerritoryId": 2
+        },
+        {
+            "abbreviation": "ID",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Idaho",
+            "stateTerritoryId": 33
+        },
+        {
+            "abbreviation": "IL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Illinois",
+            "stateTerritoryId": 39
+        },
+        {
+            "abbreviation": "MA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Massachusetts",
+            "stateTerritoryId": 30
+        },
+        {
+            "abbreviation": "NY",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "New York",
+            "stateTerritoryId": 55
+        },
+        {
+            "abbreviation": "OH",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Ohio",
+            "stateTerritoryId": 23
+        },
+        {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        {
+            "abbreviation": "WY",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Wyoming",
+            "stateTerritoryId": 49
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 474,
+    "endDateString": "Sep 2015",
+    "startDateString": "May 2015"
+}

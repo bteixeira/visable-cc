@@ -1,0 +1,217 @@
+{
+    "acronym": "",
+    "projectId": 117540,
+    "title": "Advanced Lightweight Lunar Gantry for Operations (ALLGO)",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10729,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10726,
+            "level": 3,
+            "code": "TX07.2.3",
+            "title": "Surface Construction and Assembly",
+            "definition": "Surface construction and assembly covers technologies for construction, assembly, disassembly, and reverse assembly of surface structures, including both traditional construction, assembly, and disassembly concepts and advanced systems.",
+            "exampleTechnologies": "Instruments and devices functioning in the relevant gravity environment, including consolidation and stabilization of regolith on large scales, including microwave and concentrated solar irradiation and the addition of physical or chemical additives; manufacturing of structural elements using feedstock derived from locally-produced and recycled materials; assembly of structural and environmental barrier systems from terrestrially-delivered and/or locally-derived elements; quality assurance and mission suitability of structural elements and environmental barrier systems constructed and assembled in-situ. Also includes design tools configured to accommodate broad-specification feedstock properties into design safety factors and manufacturing tolerances for construction and assembly systems, human-robotics (e.g. low-latency telerobotics), autonomous robotic systems",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>Some really solid design concepts demonstrated with lots of innovative features to build on.<br />Significantly Advanced Towards a Solution<br />In use or implemented<br />CAD/Mech Design</p>",
+    "description": "An innovative design concept for a mobile lunar gantry is proposed. A mobile gantry system will provide a key capability that is critical for the development of a lunar base camp. The Advanced Lightweight Lunar Gantry for Operations (ALLGO) concept incorporates inflatable air beam technologies similar to those used for the Hypersonic Inflatable Aerodynamic Decelerator (HIAD) project as structural components. The use of air beams, along with tendon-based supports greatly reduces the structural mass and launch volume needed to deliver a mobile lunar gantry system. The basic ALLGO design is fully scalable from a small system for Commercial Lunar Payload Services (CLPS) sized payloads to large configurations to handle payloads such as habitation modules. The proposed ALLGO concept is self-deployable after landing on the lunar surface.",
+    "startYear": 2020,
+    "startMonth": 8,
+    "endYear": 2020,
+    "endMonth": 11,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 273178,
+            "canUserEdit": false,
+            "firstName": "Kevin",
+            "lastName": "Kempton",
+            "fullName": "Kevin S Kempton",
+            "fullNameInverted": "Kempton, Kevin S",
+            "middleInitial": "S",
+            "primaryEmail": "kevin.s.kempton@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 310466,
+            "title": "ALLGO Closeout Report Part 2",
+            "description": "",
+            "libraryItemTypeId": 1222,
+            "projectId": 117540,
+            "primary": false,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "",
+            "contentType": {
+                "lkuCodeId": 1222,
+                "code": "DOCUMENT",
+                "description": "Document",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "transitionId": 19207,
+            "projectId": 117540,
+            "transitionDate": "2020-11-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "November 2020"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "LaRC",
+        "canUserEdit": false,
+        "city": "Hampton",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4852,
+        "organizationName": "Langley Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "VA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Virginia",
+            "stateTerritoryId": 7
+        },
+        "stateTerritoryId": 7,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Cambridge",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9383,
+            "organizationName": "GrabCAD",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "MA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Massachusetts",
+                "stateTerritoryId": 30
+            },
+            "stateTerritoryId": 30,
+            "dunsNumber": "         ",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 38,
+    "endDateString": "Nov 2020",
+    "startDateString": "Aug 2020"
+}

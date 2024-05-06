@@ -1,0 +1,373 @@
+{
+    "acronym": "CASALS",
+    "projectId": 96770,
+    "title": "SWaP-efficient, fast-wavelength-steering and time-division-multiplexing lidar technology capable of multi-beam ranging and concurrent hyper-spectral imaging",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10739,
+            "taxonomyRootId": 8816,
+            "level": 1,
+            "code": "TX08",
+            "title": "Sensors and Instruments",
+            "definition": "This area focuses on the development of technologies for instrumentation and sensing, including remote observation capabilities.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "additionalTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10779,
+            "taxonomyRootId": 8816,
+            "level": 1,
+            "code": "TX10",
+            "title": "Autonomous Systems",
+            "definition": "Autonomous systems (in the context of robotics, spacecraft, or aircraft) are a cross-domain capability that enables the system to operate in a dynamic environment independent of external control.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "startTrl": 2,
+    "currentTrl": 4,
+    "endTrl": 5,
+    "benefits": "<p>These radical innovations in integrated lidar/spectral/AI SWaP and performance will significantly enhance Goddard’s technical and scientific advantages when competing for eight of the fourteen Observing System Priorities identified in the Second National Academy Earth Science Decadal Survey released in 2017. Following the Academy recommendation to consider using a multi-function lidar to address two or more of the Observables, our 60-beam, configurable instrument would be well suited to acquire the measurements for the three near-term surface observables as well as aerosol and cloud profiling. Our hyperspectral imaging directly applies to the Surface Biology and Geology observable and the lidar/hyperspectral integration will, in fact, advance capabilities for all five of the Earth surface observables by providing compositional and functional information directly associated with the elevation data. This is especially the case for Terrestrial Ecosystem Structure objectives of ecosystem dynamics, rates of primary production, evapotranspiration, carbon uptake and changing land use which need both structure and function information. Funding is needed at this time to demonstrate the capabilities over the next three years, with the intent to acquire additional funding to raise TRLs to 5-6 in preparation for mission proposal opportunities starting in 2021-22. The longer-term goal of global lidar mapping can be accomplished using multiple 60-beam modules, sharing the same seed laser and grating, and imaging the footprints onto groups of pixels in larger linear-mode HgCdTe arrays. Because of lowered cost and SWaP, instrument copies could be distributed in a constellation of SmallSats to accelerate mapping, point at rapidly changing natural hazards and acquire diurnal sampling needed to fully characterize ecosystem processes.</p> ",
+    "description": "<p>We propose to integrate next-generation lidar, compact hyperspectral imaging and Artificial Intelligence (AI) technologies to provide a new remote sensing measurement capability for a broad range of Earth and planetary science objectives. A groundbreaking lidar module consisting of a high-pulse-rate, fast-wavelength-tuning fiber laser and time-division-multiplexing receiver will make height measurements using 60 steerable beams with drastically increased efficiency compared to the state-of-the-art. Concurrent hyperspectral imaging will greatly enhance science capabilities and real-time, AI neural network analysis of the images will enable optimized data collection and on-board processing. Incorporating these multiple emerging technologies will substantially reduce instrument size, weight and power thereby enabling lower-cost SmallSat-class missions with enhanced scientific return compared to the present day.</p> ",
+    "destinations": [
+        {
+            "lkuCodeId": 1544,
+            "code": "MOON_AND_CISLUNAR",
+            "description": "Moon and Cislunar",
+            "lkuCodeTypeId": 526,
+            "lkuCodeType": {
+                "codeType": "DESTINATION_TYPE",
+                "description": "Destination Type"
+            }
+        },
+        {
+            "lkuCodeId": 1543,
+            "code": "EARTH",
+            "description": "Earth",
+            "lkuCodeTypeId": 526,
+            "lkuCodeType": {
+                "codeType": "DESTINATION_TYPE",
+                "description": "Destination Type"
+            }
+        },
+        {
+            "lkuCodeId": 1546,
+            "code": "INSIDE_SOLAR_SYSTEM",
+            "description": "Others Inside the Solar System",
+            "lkuCodeTypeId": 526,
+            "lkuCodeType": {
+                "codeType": "DESTINATION_TYPE",
+                "description": "Destination Type"
+            }
+        }
+    ],
+    "startYear": 2018,
+    "startMonth": 10,
+    "endYear": 2024,
+    "endMonth": 9,
+    "statusDescription": "Active",
+    "principalInvestigators": [
+        {
+            "contactId": 172484,
+            "canUserEdit": false,
+            "displayOrder": 1,
+            "firstName": "Guangning",
+            "lastName": "Yang",
+            "fullName": "Guangning Yang",
+            "fullNameInverted": "Yang, Guangning",
+            "primaryEmail": "guangning.yang-1@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 373483,
+            "canUserEdit": false,
+            "firstName": "Peter",
+            "lastName": "Hughes",
+            "fullName": "Peter M Hughes",
+            "fullNameInverted": "Hughes, Peter M",
+            "middleInitial": "M",
+            "primaryEmail": "peter.m.hughes@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 506527,
+            "canUserEdit": false,
+            "displayOrder": 1,
+            "firstName": "Michael",
+            "lastName": "Johnson",
+            "fullName": "Michael A Johnson",
+            "fullNameInverted": "Johnson, Michael A",
+            "middleInitial": "A",
+            "primaryEmail": "michael.a.johnson@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        },
+        {
+            "contactId": 388583,
+            "canUserEdit": false,
+            "displayOrder": 2,
+            "firstName": "Renee",
+            "lastName": "Reynolds",
+            "fullName": "Renee M Reynolds",
+            "fullNameInverted": "Reynolds, Renee M",
+            "middleInitial": "M",
+            "primaryEmail": "renee.m.reynolds@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "coInvestigators": [
+        {
+            "contactId": 107114,
+            "canUserEdit": false,
+            "displayOrder": 1,
+            "firstName": "David",
+            "lastName": "Harding",
+            "fullName": "David T Harding",
+            "fullNameInverted": "Harding, David T",
+            "middleInitial": "T",
+            "publicEmail": false,
+            "nacontact": false
+        }
+    ],
+    "website": "https://etd.gsfc.nasa.gov/",
+    "libraryItems": [
+        {
+            "caption": "CASALS",
+            "file": {
+                "fileExtension": "png",
+                "fileId": 267621,
+                "fileName": "CASALS",
+                "fileSize": 43766,
+                "objectId": 268403,
+                "objectType": {
+                    "lkuCodeId": 889,
+                    "code": "LIBRARY_ITEMS",
+                    "description": "Library Items",
+                    "lkuCodeTypeId": 182,
+                    "lkuCodeType": {
+                        "codeType": "OBJECT_TYPE",
+                        "description": "Object Type"
+                    }
+                },
+                "objectTypeId": 889,
+                "fileSizeString": "42.7 KB"
+            },
+            "files": [
+                {
+                    "fileExtension": "png",
+                    "fileId": 267621,
+                    "fileName": "CASALS",
+                    "fileSize": 43766,
+                    "objectId": 268403,
+                    "objectType": {
+                        "lkuCodeId": 889,
+                        "code": "LIBRARY_ITEMS",
+                        "description": "Library Items",
+                        "lkuCodeTypeId": 182,
+                        "lkuCodeType": {
+                            "codeType": "OBJECT_TYPE",
+                            "description": "Object Type"
+                        }
+                    },
+                    "objectTypeId": 889,
+                    "fileSizeString": "42.7 KB"
+                }
+            ],
+            "id": 268403,
+            "title": "CASALS",
+            "description": "CASALS",
+            "libraryItemTypeId": 1095,
+            "projectId": 96770,
+            "primary": true,
+            "publishedDateString": "",
+            "contentType": {
+                "lkuCodeId": 1095,
+                "code": "IMAGE",
+                "description": "Image",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        },
+        {
+            "files": [],
+            "id": 268405,
+            "title": "NASA Goddard Facebook",
+            "libraryItemTypeId": 762,
+            "projectId": 96770,
+            "publishedDateString": "",
+            "url": "https://www.facebook.com/NASA.GSFC",
+            "contentType": {
+                "lkuCodeId": 762,
+                "code": "LINK",
+                "description": "Link",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        },
+        {
+            "files": [],
+            "id": 268406,
+            "title": "NASA Goddard Twitter",
+            "libraryItemTypeId": 762,
+            "projectId": 96770,
+            "publishedDateString": "",
+            "url": "https://twitter.com/intent/follow?screen_name&#61;NASAGoddard",
+            "contentType": {
+                "lkuCodeId": 762,
+                "code": "LINK",
+                "description": "Link",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        },
+        {
+            "files": [],
+            "id": 268404,
+            "title": "NASA Goddard Website",
+            "libraryItemTypeId": 762,
+            "projectId": 96770,
+            "publishedDateString": "",
+            "url": "http://www.nasa.gov/centers/goddard/home/index.html",
+            "contentType": {
+                "lkuCodeId": 762,
+                "code": "LINK",
+                "description": "Link",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [],
+    "primaryImage": {
+        "file": {
+            "fileExtension": "png",
+            "fileId": 267621,
+            "fileSizeString": "0 Byte"
+        },
+        "id": 268403,
+        "description": "CASALS",
+        "projectId": 96770,
+        "publishedDateString": ""
+    },
+    "responsibleMd": {
+        "acronym": "MSD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4910,
+        "organizationName": "Mission Support Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "GSFC IRAD",
+        "active": true,
+        "description": "<p>Goddard&#39;s IRAD program is managed under Goddard&#39;s Office of Chief Technologist.&nbsp; Activities are coordinated in collaboration with the Sciences and Exploration Directorate; Applied Engineering and Technology Directorate; Flight Projects Directorate; Wallops Flight Facility; New Opportunites Office; SBIR/STTR program; Goddard Strategic Partnerships Office; and the Export Compliance Office.</p><p>IRAD provides&quot;seed funding&quot; to develop concepts, reduce technology risk, and advance human capital and technological capabilities.&nbsp; The program is highly competitive, opportunity-driven, and 100% strategically aligned with NASA&#39;s and GSFC&#39;s strategic priorities.&nbsp; A significant portion of the program is focused on Early Stage Innovations for high-risk, strategically aligned, potential high-payoff technologies that are longer-term or lower TRL.</p>",
+        "parentProgram": {
+            "acronym": "IRAD",
+            "active": true,
+            "programId": 87,
+            "responsibleMd": {
+                "acronym": "MSD",
+                "canUserEdit": false,
+                "city": "",
+                "external": false,
+                "linkCount": 0,
+                "organizationId": 4910,
+                "organizationName": "Mission Support Directorate",
+                "organizationType": "NASA_Mission_Directorate",
+                "organizationTypePretty": "NASA Mission Directorate",
+                "naorganization": false
+            },
+            "responsibleMdId": 4910,
+            "title": "Center Independent Research & Development"
+        },
+        "parentProgramId": 87,
+        "programId": 153,
+        "responsibleMd": {
+            "acronym": "MSD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4910,
+            "organizationName": "Mission Support Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4910,
+        "title": "Center Independent Research & Development: GSFC IRAD"
+    },
+    "leadOrganization": {
+        "acronym": "GSFC",
+        "canUserEdit": false,
+        "city": "Greenbelt",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4947,
+        "organizationName": "Goddard Space Flight Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "MD",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Maryland",
+            "stateTerritoryId": 3
+        },
+        "stateTerritoryId": 3,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "statesWithWork": [
+        {
+            "abbreviation": "MD",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Maryland",
+            "stateTerritoryId": 3
+        }
+    ],
+    "lastUpdated": "2024-4-23",
+    "releaseStatusString": "Released",
+    "viewCount": 1295,
+    "endDateString": "Sep 2024",
+    "startDateString": "Oct 2018"
+}

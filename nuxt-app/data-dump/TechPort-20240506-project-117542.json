@@ -1,0 +1,205 @@
+{
+    "acronym": "",
+    "projectId": 117542,
+    "title": "CC21 Waste to Base Materials Challenge: Sustainable Reprocessing in Space",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10728,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10726,
+            "level": 3,
+            "code": "TX07.2.2",
+            "title": "In-Situ Manufacturing, Maintenance, and Repair",
+            "definition": "In-situ manufacturing, maintenance, and repair technologies manufacture items using feedstock produced from in-situ resources and recycled materials and provide system evaluation, preventive maintenance, and corrective actions for human exploration systems.",
+            "exampleTechnologies": "Design tools configured to accommodate broad-specification feedstock properties into design safety factors and manufacturing tolerances, instruments and devices functioning in the relevant gravity environment, including: additive manufacturing using broad-specification feedstock from terrestrially-delivered, locally-produced, and recycled materials; subtractive manufacturing using broad-specification feedstock from terrestrially-delivered, locally-produced, and recycled materials; evaluating suitability of locally-produced and recycled material batches for intended manufacturing processes; quality assurance and mission suitability of devices and parts manufactured using terrestrially-delivered, locally-produced, and recycled materials; devices to conduct routine, early fault detection of operational surface systems",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>22 concepts related to reusing typical waste aboard a spacecraft were acquired and relationships with the engineers, innovators, and designers who submitted them were established. Many of these ideas can be taken to the next level and explored or developed by NASA, while others will continue to be developed by those in the public sphere. Furthermore, a white paper written by a NASA retiree was submitted in conjunction with the challenge conclusion. This white paper summarized and analyzed the results of the challenge, sharing potential insights, next steps, and complementarities among the entries.<br />Significantly Advanced Towards a Solution<br />Planned for future implementation<br />Technical Solution</p>",
+    "description": "Imagine you are on a mission to Mars. The journey to Mars and back is going to take two to three years, and there may not be any supply ships. To be as efficient and self-sufficient as possible, you will need to be able to recycle, repurpose, or reprocess things and make what you need from base materials. A completely efficient cycle is almost impossible, and some waste will have to be jettisoned to reduce mass and free up space inside the spacecraft. But ideally, you will have little to almost no waste since everything gets broken down and remade into new things. There are a lot of different kinds of waste on a spacecraft. What are the different ways that those useless waste streams can be repurposed?",
+    "startYear": 2021,
+    "startMonth": 10,
+    "endYear": 2022,
+    "endMonth": 7,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 212777,
+            "canUserEdit": false,
+            "firstName": "Jeffrey",
+            "lastName": "Lee",
+            "fullName": "Jeffrey M Lee",
+            "fullNameInverted": "Lee, Jeffrey M",
+            "middleInitial": "M",
+            "primaryEmail": "jeffrey.m.lee@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        },
+        {
+            "contactId": 4119707,
+            "canUserEdit": false,
+            "firstName": "Jeffrey",
+            "lastName": "Lee",
+            "fullName": "Jeffrey Lee",
+            "fullNameInverted": "Lee, Jeffrey",
+            "primaryEmail": "jeffrey.lee@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19243,
+            "projectId": 117542,
+            "transitionDate": "2022-07-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "July 2022"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "ARC",
+        "canUserEdit": false,
+        "city": "Moffett Field",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4941,
+        "organizationName": "Ames Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        },
+        "stateTerritoryId": 59,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Wilmington",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 129,
+            "organizationName": "HeroX",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "DE",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Delaware",
+                "stateTerritoryId": 16
+            },
+            "stateTerritoryId": 16,
+            "dunsNumber": "         ",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 118,
+    "endDateString": "Jul 2022",
+    "startDateString": "Oct 2021"
+}

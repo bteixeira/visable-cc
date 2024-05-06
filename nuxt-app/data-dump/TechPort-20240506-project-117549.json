@@ -1,0 +1,204 @@
+{
+    "acronym": "",
+    "projectId": 117549,
+    "title": "Solution Mechanism Guide (SMG) Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10853,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10807,
+            "level": 2,
+            "code": "TX11.X",
+            "title": "Other Software, Modeling, Simulation, and Information Processing",
+            "definition": "This area covers software, modeling, simulation, and information processing technologies that are not otherwise covered by the sub-paragraphs outlined in TX11 of the 2020 NASA Technology Taxonomy.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>This challenge resulted in a very capable on-line tool that exceeded initial expectations.   The software was developed very cost effectively and is currently deployed internally on NASA’s network.   This software includes both user and administrative interfaces and provides a significantly tailorable content management schema which will allow the tool to be used by almost any organization.  The code was delivered as OpenSource software under an Apache 2.0 license and the source code is available at https://github.com/nasa/NTL-Solution-Mechanism-Guide.<br />Solved<br />In use or implemented<br />Software/App</p>",
+    "description": "This challenge seeks to create an online tool so that users can navigate a series of questions to a filtered subset of solution mechanisms that are a best fit for their specific needs based on the criteria they input.",
+    "startYear": 2013,
+    "startMonth": 9,
+    "endYear": 2014,
+    "endMonth": 10,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 263095,
+            "canUserEdit": false,
+            "firstName": "Kathryn",
+            "lastName": "Keeton",
+            "fullName": "Kathryn E Keeton",
+            "fullNameInverted": "Keeton, Kathryn E",
+            "middleInitial": "E",
+            "primaryEmail": "kathryn.keeton@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19247,
+            "projectId": 117549,
+            "transitionDate": "2014-10-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "October 2014"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10248,
+            "organizationName": "Appirio/Topcoder",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "canUserEdit": false,
+            "city": "Indianapolis",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9385,
+            "organizationName": "Topcoder",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "IN",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Indiana",
+                "stateTerritoryId": 37
+            },
+            "stateTerritoryId": 37,
+            "dunsNumber": "         ",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 45,
+    "endDateString": "Oct 2014",
+    "startDateString": "Sep 2013"
+}

@@ -1,0 +1,198 @@
+{
+    "acronym": "",
+    "projectId": 117532,
+    "title": "CC21 Optimal Locations for Advanced Air Mobility (AAM) Vertiports",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10898,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10893,
+            "level": 3,
+            "code": "TX13.1.5",
+            "title": "Ground and Surface Logistics",
+            "definition": "Ground and surface logistics technologies reduce the size of the logistics footprint; ensure timely availability of logistical support; ensure resilience of the supply chain across programs; and ensure integrity of component pedigrees through on-demand manufacturing, modeling supply chain resilience, secure manufacturing technologies, and emerging parts planning and location systems.",
+            "exampleTechnologies": "Counterfeit part countermeasures, supply chain and supplier economic resilience modeling, digital product lifecycle management, service life prediction methods, built-in test enhanced life forecasting, calibration methods for surfaces systems, additive manufacturing of spare parts using in-situ surface materials",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>Detailed survey data collected from target localities and demographics to better understand how the public is reacting to future placement of vertiports. Lots of good detail that will be used in assessing and designing this capabilities in the future. It may also inform future studies. The request has been submitted for this report to be added to NTRS (Document Tracking ID 20220005871).<br />Significantly Advanced Towards a Solution<br />Planned for future implementation<br />Tech Survey</p>",
+    "description": "<p>Realization of practical, generally accessible Advanced Air Mobility (AAM) is dependent upon having a sufficient number of \"vertiports\"--i.e., takeoff and landing locations for AAM aircraft. These vertiports are like airports or heliports today, but will be designed specifically for AAM missions and new vehicles and are likely to be located in many more places than existing airports or heliports, particularly in urban areas. NASA is seeking to obtain broad public input on the optimal location of these vertiports and how they would like to use this new mode of transport.</p>",
+    "startYear": 2021,
+    "startMonth": 8,
+    "endYear": 2022,
+    "endMonth": 1,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 349759,
+            "canUserEdit": false,
+            "firstName": "Nancy",
+            "lastName": "Mendonca",
+            "fullName": "Nancy L Mendonca",
+            "fullNameInverted": "Mendonca, Nancy L",
+            "middleInitial": "L",
+            "primaryEmail": "nancy.mendonca@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19200,
+            "projectId": 117532,
+            "transitionDate": "2022-01-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "January 2022"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "HQ",
+        "canUserEdit": false,
+        "city": "Washington",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4816,
+        "organizationName": "NASA Headquarters",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "DC",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "District of Columbia",
+            "stateTerritoryId": 26
+        },
+        "stateTerritoryId": 26,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "acronym": "ARMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4858,
+            "organizationName": "Aeronautics Research Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9388,
+            "organizationName": "Maven",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10250,
+            "organizationName": "Maven Research Inc.",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 42,
+    "endDateString": "Jan 2022",
+    "startDateString": "Aug 2021"
+}

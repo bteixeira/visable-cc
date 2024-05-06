@@ -1,0 +1,341 @@
+{
+    "acronym": "",
+    "projectId": 96170,
+    "title": "Space Robotics Challenge - Autonomous Robotic Systems for Lunar ISRU",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10789,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10787,
+            "level": 3,
+            "code": "TX10.2.2",
+            "title": "Activity and Resource Planning and Scheduling",
+            "definition": "Activity and resource planning and scheduling technologies select and order activities to be performed while managing system resources to achieve mission goals.",
+            "exampleTechnologies": "Power / energy consumption and production planning / scheduling; planning / scheduling given constraints, such as fuel, life support system consumables (air, water), spacecraft memory, communication link (availability, bandwidth, latency), etc.; planning / scheduling given consumables for science ops (e.g. # of sample containers); mixed initiative planning/scheduling of human spacecraft activities; piloted aircraft decision support",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "startTrl": 2,
+    "currentTrl": 4,
+    "endTrl": 4,
+    "benefits": "<p>Phase 2 invites competitors from the public, industry and academia to develop code for a team of virtual robots that will support a simulated in-situ resource utilization (ISRU) mission for the Moon. ISRU involves gathering and using materials found locally on other worlds. The challenge requires participants to develop software that will advance technologies needed for fully autonomous operations, navigation and decision-making capabilities on the lunar surface. It will be divided in two rounds: the qualification round and final competition.</p>",
+    "description": "<p>Advance robotic software that increases the autonomy of dexterous humanoid robots</p>",
+    "startYear": 2019,
+    "startMonth": 8,
+    "endYear": 2022,
+    "endMonth": 9,
+    "statusDescription": "Completed",
+    "principalInvestigators": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "https://www.nasa.gov/directorates/spacetech/centennial_challenges/index.html",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19245,
+            "projectId": 96170,
+            "partner": "Other",
+            "transitionDate": "2019-08-01",
+            "path": "Advanced From",
+            "relatedProjectId": 93868,
+            "relatedProject": {
+                "acronym": "",
+                "projectId": 93868,
+                "title": "Space Robotics Challenge - Autonomous Humanoid Robots for Deep Space Exploration",
+                "startTrl": 2,
+                "currentTrl": 4,
+                "endTrl": 4,
+                "benefits": "<p>The Space Robotics Competition tasks teams with developing and displaying the ability of an R5 robot to effectively assist in the procedures of a NASA mission, such as one to Mars. The competition involves programming a virtual R5 robot through a series of tasks presented in a virtual environment through the Gazebo software. The three tasks are aimed to simulate what a robot may be required to do while assisting a NASA mission to Mars, whether in a preparatory capacity before astronauts arrive or alongside astronauts. The first task involves aligning a communications array. The second task involves repairing a broken solar array. The third task involves identifying and repairing a habitat leak.</p>",
+                "description": "<p>Advance robotic software that increases the autonomy of dexterous humanoid robots</p>",
+                "startYear": 2016,
+                "startMonth": 8,
+                "endYear": 2017,
+                "endMonth": 6,
+                "statusDescription": "Completed",
+                "website": "",
+                "program": {
+                    "acronym": "PCC",
+                    "active": true,
+                    "programId": 63,
+                    "responsibleMd": {
+                        "acronym": "STMD",
+                        "canUserEdit": false,
+                        "city": "",
+                        "external": false,
+                        "linkCount": 0,
+                        "organizationId": 4875,
+                        "organizationName": "Space Technology Mission Directorate",
+                        "organizationType": "NASA_Mission_Directorate",
+                        "naorganization": false,
+                        "organizationTypePretty": "NASA Mission Directorate"
+                    },
+                    "responsibleMdId": 4875,
+                    "stockImageFileId": 36653,
+                    "title": "Prizes, Challenges, and Crowdsourcing"
+                },
+                "lastUpdated": "2024-4-22",
+                "releaseStatusString": "Released",
+                "viewCount": 375,
+                "endDateString": "Jun 2017",
+                "startDateString": "Aug 2016"
+            },
+            "infoText": "Advanced from another project within the program",
+            "infoTextExtra": "Another project within the program (Space Robotics Challenge - Autonomous Humanoid Robots for Deep Space Exploration)",
+            "dateText": "August 2019"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Houston",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 1550,
+            "organizationName": "Space Center Houston Project",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "TX",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Texas",
+                "stateTerritoryId": 29
+            },
+            "stateTerritoryId": 29,
+            "dunsNumber": "094321408",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "statesWithWork": [
+        {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        },
+        {
+            "abbreviation": "IN",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Indiana",
+            "stateTerritoryId": 37
+        },
+        {
+            "abbreviation": "MA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Massachusetts",
+            "stateTerritoryId": 30
+        },
+        {
+            "abbreviation": "MN",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Minnesota",
+            "stateTerritoryId": 25
+        },
+        {
+            "abbreviation": "NJ",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "New Jersey",
+            "stateTerritoryId": 28
+        },
+        {
+            "abbreviation": "PA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Pennsylvania",
+            "stateTerritoryId": 47
+        },
+        {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        {
+            "abbreviation": "WA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Washington",
+            "stateTerritoryId": 11
+        },
+        {
+            "abbreviation": "WV",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "West Virginia",
+            "stateTerritoryId": 1
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 473,
+    "endDateString": "Sep 2022",
+    "startDateString": "Aug 2019"
+}

@@ -1,0 +1,204 @@
+{
+    "acronym": "",
+    "projectId": 117536,
+    "title": "CC21 Orbital Alchemy",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10728,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10726,
+            "level": 3,
+            "code": "TX07.2.2",
+            "title": "In-Situ Manufacturing, Maintenance, and Repair",
+            "definition": "In-situ manufacturing, maintenance, and repair technologies manufacture items using feedstock produced from in-situ resources and recycled materials and provide system evaluation, preventive maintenance, and corrective actions for human exploration systems.",
+            "exampleTechnologies": "Design tools configured to accommodate broad-specification feedstock properties into design safety factors and manufacturing tolerances, instruments and devices functioning in the relevant gravity environment, including: additive manufacturing using broad-specification feedstock from terrestrially-delivered, locally-produced, and recycled materials; subtractive manufacturing using broad-specification feedstock from terrestrially-delivered, locally-produced, and recycled materials; evaluating suitability of locally-produced and recycled material batches for intended manufacturing processes; quality assurance and mission suitability of devices and parts manufactured using terrestrially-delivered, locally-produced, and recycled materials; devices to conduct routine, early fault detection of operational surface systems",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>The NASA Orbital Alchemy Challenge aimed to inspire the global community of innovators and inventors to consider how to transform a problem into a resource. Since the 1950s, spacefaring nations of the world have expended a great deal of time and money to place objects in space. In addition to the costs to launch these items, in financial terms as well as rocket fuel, these satellites collectively required a vast array of valuable materials such as steel, titanium, ceramics, plastics and more. Furthermore, these items, some weighing several tons or more, had just two end of operational life options: 1) de-orbiting to be burned up in the atmosphere or sunk into the Pacific Ocean or 2) remaining unused and lifeless in orbit. With the Orbital Alchemy Challenge, NASA wanted to foster ideation into a new and more sustainable option: recycling defunct satellites while in orbit. The overarching goal of the challenge was the theoretical processing of the largest orbiting items, from large satellites up to and including the International Space Station (ISS) itself. The justification for this focus was that the largest items present the greatest return of harvested materials, in terms of volume and variety. In total, TechConnect received thirty one submissions from a diverse international audience. At the request of the NASA team, TechConnect conducted an initial screening of responses, resulting in 17 submissions presented for formal evaluation by NASA judges who identified nine respondents as winners: one each for first and second place, three third place winners and four honorable mentions. A total of four respondents opted for recognition only and utilized the IP off-ramp option. Technologies proposed as a result of the NASA Orbital Alchemy Challenge include: biochemical recycling of metals, novel surface preparation approaches, as well as ideation focused on re-use of components and comprehensive approaches which surround a defunct satellite in order to completely process it.<br />Incrementally Advanced Towards a Solution<br />Planned for future implementation<br />Technical Solution</p>",
+    "description": "",
+    "startYear": 2022,
+    "startMonth": 2,
+    "endYear": 2022,
+    "endMonth": 8,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 1778762,
+            "canUserEdit": false,
+            "firstName": "Bryan",
+            "lastName": "Biegel",
+            "fullName": "Bryan A Biegel",
+            "fullNameInverted": "Biegel, Bryan A",
+            "middleInitial": "A",
+            "primaryEmail": "bryan.biegel@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19241,
+            "projectId": 117536,
+            "transitionDate": "2022-08-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "August 2022"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "ARC",
+        "canUserEdit": false,
+        "city": "Moffett Field",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4941,
+        "organizationName": "Ames Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        },
+        "stateTerritoryId": 59,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Austin",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9386,
+            "organizationName": "TechConnect",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "TX",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Texas",
+                "stateTerritoryId": 29
+            },
+            "stateTerritoryId": 29,
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        },
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10253,
+            "organizationName": "TechConnect LLC (NSTI LLC)",
+            "organizationType": "Industry",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 100,
+    "endDateString": "Aug 2022",
+    "startDateString": "Feb 2022"
+}

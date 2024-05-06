@@ -1,0 +1,217 @@
+{
+    "acronym": "",
+    "projectId": 117534,
+    "title": "Robonaut Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10615,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10611,
+            "level": 3,
+            "code": "TX04.1.4",
+            "title": "Object, Event, and Activity Recognition",
+            "definition": "Object, event, and activity recognition of static objects, dynamic natural events, and dynamic human activities near the vehicle provides awareness of these items and enables onboard decisions about how to react to them. Natural objects that are important to recognize include: landmarks that facilitate navigation; obstacles to rovers or landers; and objects that are important to science investigations, such as geologic targets and atmospheric phenomena.",
+            "exampleTechnologies": "Natural object recognition, human-made object recognition, event recognition",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>The Robonaut team received 4 quality algorithms that they anticipate will be useful as they continue to develop and mature their new software architecture. The value provided in seeing the different approaches in each of the algorithms they received will advance their efforts.  The team was facing time-critical operational deadlines to meet flight-scheduling milestones that have slowed their opportunity to more quickly integrate the results of the challenge.  With their architecture upgrade complete sometime in the early calendar year, they can then begin to integrate the challenge results. What the team saw as one of the biggest benefits was the opportunity to get new perspectives on how to approach some of their specific software challenges, but also a way to augment current team capabilities.  As a result of their initial challenge they now have a better understanding of what is required to support a challenge-driven development activity and how best to use that to their team’s advantage. http://www.topcoder.com/iss/robonaut/#sthash.ymlx0sfa.dpuf?<br />Significantly Advanced Towards a Solution<br />Not going to be used/implemented<br />Algorithm</p>",
+    "description": "<p>Robonaut 2 is the first humanoid robot in space and was sent to the International Space Station (ISS) with the intention of taking over tasks too dangerous or too mundane for astronauts. There's a problem though: Robonaut 2 needs to learn how to interact with the types of input devices the astronauts use on the ISS. The challenge for the TopCoder community was to write an algorithm to control Robonaut and teach him how to interact with the taskboard. Specifically, competitors were asked to teach Robonaut how to recognize the state and location of several buttons and switches on the taskboard. This was important to advance Robonaut 2?s ?seeing? capability and potentially accelerate his effectiveness in supporting efforts on the ISS.</p>",
+    "startYear": 2012,
+    "startMonth": 9,
+    "endYear": 2013,
+    "endMonth": 5,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 253942,
+            "canUserEdit": false,
+            "firstName": "Julia",
+            "lastName": "Badger",
+            "fullName": "Julia M Badger",
+            "fullNameInverted": "Badger, Julia M",
+            "middleInitial": "M",
+            "primaryEmail": "julia.m.badger@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19213,
+            "projectId": 117534,
+            "transitionDate": "2013-05-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "May 2013"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10248,
+            "organizationName": "Appirio/Topcoder",
+            "organizationType": "Industry",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        },
+        {
+            "acronym": "OCT",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4870,
+            "organizationName": "Office of the Chief Technologist",
+            "organizationType": "NASA_Office",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Office"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Indianapolis",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9385,
+            "organizationName": "Topcoder",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "IN",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Indiana",
+                "stateTerritoryId": 37
+            },
+            "stateTerritoryId": 37,
+            "dunsNumber": "         ",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 50,
+    "endDateString": "May 2013",
+    "startDateString": "Sep 2012"
+}

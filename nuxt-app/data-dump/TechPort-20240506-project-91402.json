@@ -1,0 +1,941 @@
+{
+    "acronym": "",
+    "projectId": 91402,
+    "title": "Mars Ascent Vehicle II",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10776,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10770,
+            "level": 3,
+            "code": "TX09.4.6",
+            "title": "Instrumentation and Health Monitoring for EDL",
+            "definition": "EDL instrumentation serves two primary purposes: First, by providing data on system performance during EDL, instrumentation allows engineers to validate the overall design, assess margin, validate design simulations, and target future modeling improvements to those areas where disagreement is largest. Second, health monitoring instrumentation ensures that the EDL system components are undamaged and capable of performing their function.",
+            "exampleTechnologies": "TPS instrumentation; radiometers and spectrometers for entry vehicle heat shields; distributed instrumentation; miniaturized, micro electro mechanical systems (MEMS)-based sensors for entry vehicles; semi- or non-intrusive instrumentation concepts; remote observation platforms for Earth entries",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "startTrl": 2,
+    "currentTrl": 4,
+    "endTrl": 4,
+    "benefits": "<p>The challenge is designed to demonstrate systems that autonomously can recover, load, and launch a Mars sample cache from the red planet surface to a pre-selected orbit, to eventually be returned to Earth for analysis. It provides opportunities to develop a wide range of innovative methods to insert the sample, provide sample containment, erect the launch vehicle and deploy the sample container with limited human intervention and validate a reliable methodology. This challenge especially seeks to engage the amateur robotics and rocketry communities to provide solutions.</p>",
+    "description": "<p>The challenge provides opportunities to develop a wide range of innovative methods to insert the sample, provide sample containment, erect the launch vehicle and deploy the sample container with limited human intervention and validate a reliable methodology. This challenge especially seeks to engage the amateur robotics and rocketry communities to provide solutions.</p>",
+    "startYear": 2015,
+    "startMonth": 9,
+    "endYear": 2016,
+    "endMonth": 4,
+    "statusDescription": "Completed",
+    "principalInvestigators": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "https://www.nasa.gov/directorates/spacetech/home/index.html",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 310464,
+            "title": "MAV Prize winning rocket",
+            "description": "First-place MAV Prize winner Cornell University’s rocket takes off at the 2016 Student Launch competition on April 16, 2016. Credits: NASA/Marshall/Emmett Given",
+            "libraryItemTypeId": 1095,
+            "projectId": 91402,
+            "primary": true,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "",
+            "contentType": {
+                "lkuCodeId": 1095,
+                "code": "IMAGE",
+                "description": "Image",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "transitionId": 19231,
+            "projectId": 91402,
+            "partner": "Other",
+            "transitionDate": "2015-09-01",
+            "path": "Advanced From",
+            "url": "",
+            "relatedProjectId": 106556,
+            "relatedProject": {
+                "acronym": "",
+                "projectId": 106556,
+                "title": "Mars Ascent Vehicle I",
+                "startTrl": 4,
+                "currentTrl": 5,
+                "endTrl": 5,
+                "benefits": "<p>The challenge is designed to demonstrate systems that autonomously can recover, load, and launch a Mars sample cache from the red planet surface to a pre-selected orbit, to eventually be returned to Earth for analysis. It provides opportunities to develop a wide range of innovative methods to insert the sample, provide sample containment, erect the launch vehicle and deploy the sample container with limited human intervention and validate a reliable methodology. This challenge especially seeks to engage the amateur robotics and rocketry communities to provide solutions.</p>",
+                "description": "<p>The challenge provides opportunities to develop a wide range of innovative methods to insert the sample, provide sample containment, erect the launch vehicle and deploy the sample container with limited human intervention and validate a reliable methodology. This challenge especially seeks to engage the amateur robotics and rocketry communities to provide solutions.</p>",
+                "startYear": 2014,
+                "startMonth": 8,
+                "endYear": 2015,
+                "endMonth": 4,
+                "statusDescription": "Completed",
+                "website": "",
+                "program": {
+                    "acronym": "PCC",
+                    "active": true,
+                    "programId": 63,
+                    "responsibleMd": {
+                        "acronym": "STMD",
+                        "canUserEdit": false,
+                        "city": "",
+                        "external": false,
+                        "linkCount": 0,
+                        "organizationId": 4875,
+                        "organizationName": "Space Technology Mission Directorate",
+                        "organizationType": "NASA_Mission_Directorate",
+                        "naorganization": false,
+                        "organizationTypePretty": "NASA Mission Directorate"
+                    },
+                    "responsibleMdId": 4875,
+                    "stockImageFileId": 36653,
+                    "title": "Prizes, Challenges, and Crowdsourcing"
+                },
+                "lastUpdated": "2024-4-22",
+                "releaseStatusString": "Released",
+                "viewCount": 117,
+                "endDateString": "Apr 2015",
+                "startDateString": "Aug 2014"
+            },
+            "details": "",
+            "infoText": "Advanced from another project within the program",
+            "infoTextExtra": "Another project within the program (Mars Ascent Vehicle I)",
+            "dateText": "September 2015"
+        },
+        {
+            "transitionId": 19230,
+            "projectId": 91402,
+            "transitionDate": "2016-04-01",
+            "path": "Closed Out",
+            "url": "https://www.nasa.gov/directorates/spacetech/centennial_challenges/mavprizeawards",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "April 2016"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "MSFC",
+        "canUserEdit": false,
+        "city": "Huntsville",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4854,
+        "organizationName": "Marshall Space Flight Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        "stateTerritoryId": 18,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "acronym": "Cal Poly",
+            "canUserEdit": false,
+            "city": "San Luis Obispo",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4332,
+            "organizationName": "California Polytechnic State University-San Luis Obispo",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "CA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "California",
+                "stateTerritoryId": 59
+            },
+            "stateTerritoryId": 59,
+            "msiData": {
+                "2020": [
+                    "Asian American Native American Pacific Islander (AANAPISI)"
+                ],
+                "2021": [
+                    "Asian American Native American Pacific Islander (AANAPISI)"
+                ],
+                "2022": [
+                    "Asian American Native American Pacific Islander (AANAPISI)"
+                ],
+                "2023": [
+                    "Asian American Native American Pacific Islander (AANAPISI)"
+                ]
+            },
+            "setAsideData": [],
+            "murepUnitId": 110422,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Chico",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 2237,
+            "organizationName": "California State University-Chico",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "CA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "California",
+                "stateTerritoryId": 59
+            },
+            "stateTerritoryId": 59,
+            "msiData": {
+                "2018": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2019": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2020": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2021": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2022": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2023": [
+                    "Hispanic Serving Institutions (HSI)"
+                ]
+            },
+            "setAsideData": [],
+            "murepUnitId": 110538,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Ithaca",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 3009,
+            "organizationName": "Cornell University",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "NY",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "New York",
+                "stateTerritoryId": 55
+            },
+            "stateTerritoryId": 55,
+            "murepUnitId": 190415,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Miami",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4159,
+            "organizationName": "Florida International University",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "FL",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Florida",
+                "stateTerritoryId": 46
+            },
+            "stateTerritoryId": 46,
+            "msiData": {
+                "2017": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2018": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2019": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2020": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2021": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2022": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2023": [
+                    "Hispanic Serving Institutions (HSI)"
+                ]
+            },
+            "setAsideData": [],
+            "murepUnitId": 133951,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 2282,
+            "organizationName": "Fresno Rocket Works",
+            "organizationType": "Industry",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        },
+        {
+            "acronym": "GA Tech",
+            "canUserEdit": false,
+            "city": "Atlanta",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 5029,
+            "organizationName": "Georgia Institute of Technology-Main Campus",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "GA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Georgia",
+                "stateTerritoryId": 2
+            },
+            "stateTerritoryId": 2,
+            "murepUnitId": 139755,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Ames",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 3995,
+            "organizationName": "Iowa State University",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "IA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Iowa",
+                "stateTerritoryId": 57
+            },
+            "stateTerritoryId": 57,
+            "murepUnitId": 153603,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 2247,
+            "organizationName": "Madison West High School",
+            "organizationType": "Academia",
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Raleigh",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 3223,
+            "organizationName": "North Carolina State University at Raleigh",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "NC",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "North Carolina",
+                "stateTerritoryId": 12
+            },
+            "stateTerritoryId": 12,
+            "murepUnitId": 199193,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Evanston",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 3134,
+            "organizationName": "Northwestern University",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "IL",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Illinois",
+                "stateTerritoryId": 39
+            },
+            "stateTerritoryId": 39,
+            "murepUnitId": 147767,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Saint Louis",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 1059,
+            "organizationName": "Saint Louis University",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "MO",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Missouri",
+                "stateTerritoryId": 38
+            },
+            "stateTerritoryId": 38,
+            "murepUnitId": 179159,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Stephenville",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 2291,
+            "organizationName": "Tarleton State University",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "TX",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Texas",
+                "stateTerritoryId": 29
+            },
+            "stateTerritoryId": 29,
+            "murepUnitId": 228529,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Chester",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 1612,
+            "organizationName": "United States Naval Academy",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "MD",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Maryland",
+                "stateTerritoryId": 3
+            },
+            "stateTerritoryId": 3,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Fayetteville",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4996,
+            "organizationName": "University of Arkansas",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "AR",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Arkansas",
+                "stateTerritoryId": 40
+            },
+            "stateTerritoryId": 40,
+            "msiData": {
+                "2017": [
+                    "Alaska Native and Native Hawaiian Serving Institutions (ANNH)"
+                ]
+            },
+            "setAsideData": [],
+            "murepUnitId": 106397,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "acronym": "UCF",
+            "canUserEdit": false,
+            "city": "Orlando",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 889,
+            "organizationName": "University of Central Florida",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "FL",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Florida",
+                "stateTerritoryId": 46
+            },
+            "stateTerritoryId": 46,
+            "msiData": {
+                "2019": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2020": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2021": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2022": [
+                    "Hispanic Serving Institutions (HSI)"
+                ],
+                "2023": [
+                    "Hispanic Serving Institutions (HSI)"
+                ]
+            },
+            "setAsideData": [],
+            "murepUnitId": 132903,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Urbana",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 3999,
+            "organizationName": "University of Illinois at Urbana-Champaign",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "IL",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Illinois",
+                "stateTerritoryId": 39
+            },
+            "stateTerritoryId": 39,
+            "murepUnitId": 145637,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Iowa City",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4269,
+            "organizationName": "University of Iowa",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "IA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Iowa",
+                "stateTerritoryId": 57
+            },
+            "stateTerritoryId": 57,
+            "murepUnitId": 153658,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Louisville",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 182,
+            "organizationName": "University of Louisville",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "KY",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Kentucky",
+                "stateTerritoryId": 10
+            },
+            "stateTerritoryId": 10,
+            "murepUnitId": 157289,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "acronym": "UND",
+            "canUserEdit": false,
+            "city": "Grand Forks",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 1163,
+            "organizationName": "University of North Dakota",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "ND",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "North Dakota",
+                "stateTerritoryId": 17
+            },
+            "stateTerritoryId": 17,
+            "murepUnitId": 200280,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        },
+        {
+            "acronym": "USF",
+            "canUserEdit": false,
+            "city": "Tampa",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 4945,
+            "organizationName": "University of South Florida-Main Campus",
+            "organizationType": "Academia",
+            "stateTerritory": {
+                "abbreviation": "FL",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Florida",
+                "stateTerritoryId": 46
+            },
+            "stateTerritoryId": 46,
+            "murepUnitId": 137351,
+            "naorganization": false,
+            "organizationTypePretty": "Academia"
+        }
+    ],
+    "statesWithWork": [
+        {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        {
+            "abbreviation": "NY",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "New York",
+            "stateTerritoryId": 55
+        },
+        {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        {
+            "abbreviation": "WI",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Wisconsin",
+            "stateTerritoryId": 32
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 434,
+    "endDateString": "Apr 2016",
+    "startDateString": "Sep 2015"
+}

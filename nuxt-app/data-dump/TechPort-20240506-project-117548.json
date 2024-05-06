@@ -1,0 +1,217 @@
+{
+    "acronym": "",
+    "projectId": 117548,
+    "title": "CC21 Lunar TORCH",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10729,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10726,
+            "level": 3,
+            "code": "TX07.2.3",
+            "title": "Surface Construction and Assembly",
+            "definition": "Surface construction and assembly covers technologies for construction, assembly, disassembly, and reverse assembly of surface structures, including both traditional construction, assembly, and disassembly concepts and advanced systems.",
+            "exampleTechnologies": "Instruments and devices functioning in the relevant gravity environment, including consolidation and stabilization of regolith on large scales, including microwave and concentrated solar irradiation and the addition of physical or chemical additives; manufacturing of structural elements using feedstock derived from locally-produced and recycled materials; assembly of structural and environmental barrier systems from terrestrially-delivered and/or locally-derived elements; quality assurance and mission suitability of structural elements and environmental barrier systems constructed and assembled in-situ. Also includes design tools configured to accommodate broad-specification feedstock properties into design safety factors and manufacturing tolerances for construction and assembly systems, human-robotics (e.g. low-latency telerobotics), autonomous robotic systems",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>Innovative concepts<br />Incrementally Advanced Towards a Solution<br />Planned for future implementation<br />CAD/Mech Design</p>",
+    "description": "NASA is seeking to challenge the GrabCAD Community to design a mobile lunar heliostat that can be used to support operations at the Artemis Base Camp by redirecting solar energy where it is most needed. The Lunar Tele-Operated Rover-based Configurable Heliostat (Lunar TORCH) system serves as a cost effective multi-purpose tool for lunar operations by manipulating a critical resource (sunlight). The goal of this challenge is to develop an innovative low mass mobile heliostat that can be tightly packaged on a lander and easily deployed on the lunar surface. The basic configuration should be scalable to provide large amounts of solar energy where needed (i.e. ISRU systems located in permanently shadowed regions). The Lunar TORCH could also be remotely operated by ground control or Artemis astronauts and commanded where it is needed to support operations at the Artemis base camp. The focus of this challenge is on the deployable heliostat subsystem and not on the rover that supports it. Challengers can use a generic rover design or come up with their own if it will help with attachment and deployment of the heliostat subsystem. Many good examples of rovers can be found in the GrabCAD library (i.e. Mars Rover Prototype). The heliostat design should be lightweight, self-deployable, and allow for compact packaging. NASA is looking for innovative packaging and deployment methods that can reliably and autonomously deploy the heliostat subsystem after being unloaded on the lunar surface.",
+    "startYear": 2021,
+    "startMonth": 6,
+    "endYear": 2021,
+    "endMonth": 11,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 273178,
+            "canUserEdit": false,
+            "firstName": "Kevin",
+            "lastName": "Kempton",
+            "fullName": "Kevin S Kempton",
+            "fullNameInverted": "Kempton, Kevin S",
+            "middleInitial": "S",
+            "primaryEmail": "kevin.s.kempton@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 310471,
+            "title": "Challenge Results - Winning Designs",
+            "description": "",
+            "libraryItemTypeId": 762,
+            "projectId": 117548,
+            "primary": false,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "https://grabcad.com/challenges/nasa-challenge-lunar-torch/results",
+            "contentType": {
+                "lkuCodeId": 762,
+                "code": "LINK",
+                "description": "Link",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "transitionId": 19233,
+            "projectId": 117548,
+            "transitionDate": "2021-11-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "November 2021"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "LaRC",
+        "canUserEdit": false,
+        "city": "Hampton",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4852,
+        "organizationName": "Langley Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "VA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Virginia",
+            "stateTerritoryId": 7
+        },
+        "stateTerritoryId": 7,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Cambridge",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9383,
+            "organizationName": "GrabCAD",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "MA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Massachusetts",
+                "stateTerritoryId": 30
+            },
+            "stateTerritoryId": 30,
+            "dunsNumber": "         ",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 48,
+    "endDateString": "Nov 2021",
+    "startDateString": "Jun 2021"
+}

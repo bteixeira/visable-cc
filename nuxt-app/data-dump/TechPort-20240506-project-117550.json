@@ -1,0 +1,239 @@
+{
+    "acronym": "",
+    "projectId": 117550,
+    "title": "Exploring Hell: Avoiding Obstacles on a Clockwork Rover",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10751,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10739,
+            "level": 2,
+            "code": "TX08.3",
+            "title": "In-Situ Instruments and Sensors",
+            "definition": "In-situ instruments and sensors include components, sensors, and instruments sensitive to fields and particles able to perform in-situ characterization of Earth and planetary atmospheres and the space environment, as well as vehicle and habitat monitoring.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>The Exploring Hell Challenge received 572 submissions from people in over 80 countries. The Judging Panel was so thrilled by the number of outstanding and innovative entries that NASA is recognizing an additional 12 solutions. The challenge sought early-stage ideas and solutions surpassed all expectations. The 15 awarded entries plus an additional ~25 entries included detailed CAD designs, calculations, and extensive reports. One submitting team even built a full-scale prototype of their design. The Challenge Owner compared the results to having 20-30 senior projects done on the topic. The diversity and variety of submissions allows JPL to quickly understand different approaches and also identify possible failure points early. The results of the challenge will be incorporated into the AREE report that is being prepared by Jonathan Sauder and will be used to inform future developments in mechanical sensors for Venus. More details can be found in the webinar that we hosted with JPL and the winners here: https://www.herox.com/VenusRover/128-meet-the-winners ------------- 1-year follow-up: The solutions were included into our final report to NIAC (which was submitted last summer), as approaches that should be implemented when creating the rover. There has not yet been any follow-on funding for this effort, so we haven't implemented things in terms of \"building hardware\". Currently, with the help of the challenge, all of the tall poles on the rover architecture have been solved, and our current proposals focus on evolving detailed aspects like the Wind Turbine and designing and demonstrating mechanisms to operating for months under the extreme Venus conditions. I expect we will continue to focus on continued development of component technology for quite some time.<br />Solved<br />In use or implemented<br />CAD/Mech Design</p>",
+    "description": "Imagine a world hot enough to turn lead into a puddle, where the atmospheric pressure can crush a nuclear-powered submarine. Now imagine sending a rover to explore that world. Venus, ancient sister of Earth with a planetary environment just this side of hellish, has been visited by a handful of probes since the early days of space flight. Of the many missions to our celestial neighbor, only about a dozen have made contact with the surface of the planet. The longest-lived landers only managed to function for a couple of hours before succumbing to the relentlessly oppressive heat and pressure. NASA?s Jet Propulsion Laboratory (JPL), under a grant from the NASA Innovative Advanced Concepts (NIAC) program, envisions returning to the surface of Venus, something not accomplished since the Soviet Vega 2 landed in 1985. Current, state-of-the-art, military-grade electronics fail at approximately 125Â°C, so mission scientists at JPL have taken their design cues from a different source: automatons and clockwork operations. Powered by wind, the Automaton Rover for Extreme Environments (AREE) mission is intended to spend months, not minutes, exploring the landscape of our sister world. Built of advanced alloys, AREE will be able to collect valuable long-term longitudinal scientific data utilizing both indirect and direct sensors. As the rover explores the surface of Venus, collecting and relaying data to an orbiter overhead, it must also detect obstacles in its path like rocks, crevices, and steep terrain. To assist AREE on its groundbreaking mission, JPL needs an equally groundbreaking obstacle avoidance sensor, one that does not rely on vulnerable electronic systems. For that reason, JPL is turning to the global community of innovators and inventors to design this novel avoidance sensor for AREE. JPL is interested in all approaches, regardless of technical maturity. This sensor will be the primary mechanism by which the rover detects and navigates through dangerous situations during its operational life. By sensing obstacles such as rocks, crevices, and inclines, the rover can then navigate around the obstruction, enabling the rover to continue to explore the surface of Venus and collect more observational data. JPL has issued this Challenge to the global community because the rover must have the ability to successfully navigate in such a demanding environment in order to qualify for additional developmental funding. While the mission to the surface of Venus may be years off, the development of a suitably robust rover sensor will strengthen the case for returning to Venus with a rover, something that has never been attempted before.",
+    "startYear": 2019,
+    "startMonth": 11,
+    "endYear": 2020,
+    "endMonth": 8,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 239959,
+            "canUserEdit": false,
+            "firstName": "Jonathan",
+            "lastName": "Sauder",
+            "fullName": "Jonathan F Sauder",
+            "fullNameInverted": "Sauder, Jonathan F",
+            "middleInitial": "F",
+            "primaryEmail": "jonathan.sauder@jpl.nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        },
+        {
+            "contactId": 4119702,
+            "canUserEdit": false,
+            "firstName": "Jonathan",
+            "lastName": "Sauder",
+            "fullName": "Jonathan Sauder",
+            "fullNameInverted": "Sauder, Jonathan",
+            "primaryEmail": "jsauder@ndc.nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 310484,
+            "title": "1-Year Follow-up",
+            "description": "<p>1-year follow-up: The solutions were included into our final report to NIAC (which was submitted last summer), as approaches that should be implemented when creating the rover.  There has not yet been any follow-on funding for this effort, so we haven't implemented things in terms of \"building hardware\". Currently, with the help of the challenge, all of the tall poles on the rover architecture have been solved, and our current proposals focus on evolving detailed aspects like the Wind Turbine and designing and demonstrating mechanisms to operating for months under the extreme Venus conditions. I expect we will continue to focus on continued development of component technology for quite some time.</p>",
+            "libraryItemTypeId": 1091,
+            "projectId": 117550,
+            "primary": false,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "",
+            "contentType": {
+                "lkuCodeId": 1091,
+                "code": "STORY",
+                "description": "Story",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "transitionId": 19209,
+            "projectId": 117550,
+            "transitionDate": "2020-08-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "August 2020"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JPL",
+        "canUserEdit": false,
+        "city": "Pasadena",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 4946,
+        "organizationName": "Jet Propulsion Laboratory",
+        "organizationType": "FFRDC_2fUARC",
+        "stateTerritory": {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        },
+        "stateTerritoryId": 59,
+        "organizationTypePretty": "FFRDC/UARC",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Wilmington",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 129,
+            "organizationName": "HeroX",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "DE",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Delaware",
+                "stateTerritoryId": 16
+            },
+            "stateTerritoryId": 16,
+            "dunsNumber": "         ",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "acronym": "NIAC",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 2558,
+            "organizationName": "NASA Innovative Advanced Concepts",
+            "organizationType": "NASA_Program",
+            "organizationTypePretty": "NASA Program",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 47,
+    "endDateString": "Aug 2020",
+    "startDateString": "Nov 2019"
+}

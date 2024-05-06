@@ -1,0 +1,194 @@
+{
+    "acronym": "",
+    "projectId": 117533,
+    "title": "Sample Return Regolith Sorter Design Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10865,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10864,
+            "level": 3,
+            "code": "TX12.2.1",
+            "title": "Lightweight Concepts",
+            "definition": "Lightweight concepts are efficient structures and structural systems using new and innovative approaches to develop beyond-state-of-the-art mass reductions for affordable, enhanced performance, reliable, and environmentally responsible aerospace applications.",
+            "exampleTechnologies": "Components for space vehicles and surface habitats, in-space depots and landers, solar or antenna arrays, complex precision deployables, propulsion systems, and terrestrial airframes and engines which function either as primary load bearing or as secondary structures. The technologies used for these components may include either rigid construction (e.g., shell or truss structures) or expandable configurations (e.g., inflatable structures) having efficient structural geometries (e.g., hat-stiffened shells) constructed from advanced materials (e.g., polymer matrix composites) using advanced fabrication methods (e.g., additive manufacturing)",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>Good experience. Hit or miss – more chance of getting a hit. Less of an end goal – more creative b/c 200+ people. New perspective out of left field type of designs #1. In general, we liked it. Seeing models and participants that made real videos – and printed them out. Really liked seeing people testing them. Wouldn’t have time to design test and print. Got a lot more for our money and enjoyed the challenge process. Don Draper branch chief – really liked what he/they got out of this experience. Lauri Link lauri.link https://grabcad.com/lauri.link Tallinn Estonia M N Individual 1st Place $3,000 Lunar sampling system Whisk - This design was unique amongst all of the competition entries and we considered it very innovative compared to the traditional methods for acquiring samples. While there are some challenges to overcome in using a system like this, the novel design impressed the team. The system is lightweight, low-power, and simple to operate. Further testing will be done to verify the effectiveness of the whisk but if proven capable it could provide mission designers with the capability to easily collect specific samples from planetary surfaces. Specifically, the winning design allows for the sample collection operation to be simple and straightforward while still providing the required filtering of the materials. The team liked the use of vibration motors on the scoop to shake loose dust while leaving behind the larger rocks. Adding a vibration motor to the sample canister enables the tight packing of the fine regolith and rocks which will protect the samples from moving around within the canister. The multiple videos of real-world testing served as evidence of the efficacy of the design. The simplicity of the design will allow us to quickly build a version for testing. The Simple Regolith Sampler System - The use of a mesh for filtering was interesting and well-received by the team. The openness of the design allows for great visibility during sample collection and filter operations. Mounting the sample canister to the acquisition system could introduce some operational challenges but it could be separated from the sampler with a few tweaks to the design. The detailed documentation, including a narrated video of testing, was highly appreciated by the team. The NASA Lunar Sampler - The gas system would be effective for transferring the collected material from the scoop to the canister. The designer attached the sample canister to the scoop but with the gas system it could be moved to a new location while still allowing for easy material transferring. The openness of the scoop would provide good visibility during sampling and sorting operations. NASA Lunar Sampling System - The multi-compartment design with various filter sizes should allow for easy sorting of materials. The trapdoor configuration would allow unwanted materials to be dumped from one compartment while retaining wanted materials in the other compartment.<br />Significantly Advanced Towards a Solution<br />Planned for future implementation<br />CAD/Mech Design</p>",
+    "description": "<p>NASA is seeking participants to design a sampling system to collect lunar surface materials for return to Earth and subsequent scientific analysis. The competition will be to design a sampling system that is capable of acquiring a defined amount of regolith (rocks and dust) within specific size ranges while operating under the provided constraints. The winning designs will be built and tested by NASA and used to inform potential future sample return missions on possible sampling methods.</p>",
+    "startYear": 2018,
+    "startMonth": 7,
+    "endYear": 2018,
+    "endMonth": 12,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 271067,
+            "canUserEdit": false,
+            "firstName": "Kenton",
+            "lastName": "Fisher",
+            "fullName": "Kenton R Fisher",
+            "fullNameInverted": "Fisher, Kenton R",
+            "middleInitial": "R",
+            "primaryEmail": "kenton.r.fisher@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19223,
+            "projectId": 117533,
+            "transitionDate": "2018-12-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "December 2018"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Cambridge",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9383,
+            "organizationName": "GrabCAD",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "MA",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Massachusetts",
+                "stateTerritoryId": 30
+            },
+            "stateTerritoryId": 30,
+            "dunsNumber": "         ",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 61,
+    "endDateString": "Dec 2018",
+    "startDateString": "Jul 2018"
+}

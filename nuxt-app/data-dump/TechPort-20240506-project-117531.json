@@ -1,0 +1,185 @@
+{
+    "acronym": "",
+    "projectId": 117531,
+    "title": "Flexible Sealing Device",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10871,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10870,
+            "level": 3,
+            "code": "TX12.3.1",
+            "title": "Deployables, Docking, and Interfaces",
+            "definition": "Deployables, docking, and interfaces combine and/or separate aerospace vehicles and aerospace vehicle systems either remotely or with humans in the loop.",
+            "exampleTechnologies": "Interfaces that streamline connectivity; precision hinges, latches, grappling mechanisms, low-shock releasing and deploying mechanisms; reliable packaging techniques for deployables; applications to all ranges of structure sizes; provisions for operation in harsh environment; Integrated Docking and Automated Rendezvous Systems Design, Docking Systems for Exploration; deployables such as solar arrays, antennae, booms, reflectors, and solar sails",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>This ideation challenge awarded a first place $7500 prize and three $2500 runner up prizes ushering in four new technologies for possible advancement through NASA’s Space Technology, Game Changing Development (GCD) Program.  The development of a new flexible seal device will enhance the capabilities of future space missions by reducing mass and volume parameters. The GCD Program intends to further pursue at least 2 of the concepts to incorporate into elements of future airlocks and inflatable structures.<br />Incrementally Advanced Towards a Solution<br />Planned for future implementation<br />Ideation</p>",
+    "description": "Develop concepts for a flexible seal device for ultra-lightweight deployable space hatches on spacecraft and habitat systems.",
+    "startYear": 2015,
+    "startMonth": 4,
+    "endYear": 2015,
+    "endMonth": 7,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 426939,
+            "canUserEdit": false,
+            "firstName": "Scott",
+            "lastName": "Kenner",
+            "fullName": "Scott Kenner",
+            "fullNameInverted": "Kenner, Scott",
+            "primaryEmail": "Winfred.S.Kenner@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19205,
+            "projectId": 117531,
+            "transitionDate": "2015-07-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "July 2015"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "HQ",
+        "canUserEdit": false,
+        "city": "Washington",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4816,
+        "organizationName": "NASA Headquarters",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "DC",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "District of Columbia",
+            "stateTerritoryId": 26
+        },
+        "stateTerritoryId": 26,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9391,
+            "organizationName": "Innocentive",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10254,
+            "organizationName": "InnoCentive (Wazoku Limited)",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 60,
+    "endDateString": "Jul 2015",
+    "startDateString": "Apr 2015"
+}

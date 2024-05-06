@@ -1,0 +1,149 @@
+{
+    "acronym": "",
+    "projectId": 157161,
+    "title": "NASA TechRise Student Challenge 2",
+    "description": "<p>NASA is calling on middle and high school students to join the second NASA TechRise Student Challenge, which invites student teams to submit science and technology experiment ideas to fly on a high-altitude balloon. Students in sixth to 12th grades attending a U.S. public, private, or charter school, including those in U.S. territories, are challenged to team up with their schoolmates to design an experiment under the guidance of an educator. Administered by Future Engineers, the challenge offers hands-on insight into the design and test process used by NASA-supported researchers. It aims to inspire a deeper understanding of Earth's atmosphere, surface features, and climate; space exploration; coding; electronics; and the value of test data. Teams should submit their experiment ideas by the challenge deadline on October 24th, 2022. A total of 60 winning teams will be selected to build their proposed experiment. Each winning team will receive $1,500 to build their experiment, a flight box in which to build it, and an assigned spot to test their experiment on a NASA-sponsored balloon flight. Winning teams will also receive technical support from Future Engineers advisors, who will help students learn the skills needed to turn their experiment idea into reality. No experience is necessary to join the NASA TechRise Challenge!</p>",
+    "startYear": 2022,
+    "startMonth": 7,
+    "endYear": 2023,
+    "endMonth": 11,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 298765,
+            "canUserEdit": false,
+            "firstName": "Lucas",
+            "lastName": "Moxey",
+            "fullName": "Lucas Moxey",
+            "fullNameInverted": "Moxey, Lucas",
+            "primaryEmail": "lucas.e.moxey@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "AFRC",
+        "canUserEdit": false,
+        "city": "Edwards",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4893,
+        "organizationName": "Armstrong Flight Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        },
+        "stateTerritoryId": 59,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10252,
+            "organizationName": "Future Engineers",
+            "organizationType": "Industry",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 12,
+    "endDateString": "Nov 2023",
+    "startDateString": "Jul 2022"
+}

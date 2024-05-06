@@ -1,0 +1,217 @@
+{
+    "acronym": "",
+    "projectId": 117519,
+    "title": "CC20 NASA Image Co-registration Code Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10734,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10732,
+            "level": 3,
+            "code": "TX07.3.2",
+            "title": "Integrated Flight Operations Systems",
+            "definition": "Integrated flight operations for long-duration, deep-space missions will require striking complex balances between ground and space operations, with a shift towards increasing crew autonomy that will benefit from autonomous systems and comprehensive, highly-integrated operational systems. Transparent and resilient systems and procedures must be designed that enable the human role in flight-critical systems.",
+            "exampleTechnologies": "Autonomous crew operations, autonomous ground operations, validated adaptive decision support for Earth-independent operations and contingency response, technologies to enable real-time situation understanding and shared intent between humans and machines, validated resilient teaming of humans and machines in limited nominal and off-nominal conditions that properly allocate roles and responsibilities, advanced ground launch operations for ascent vehicles, mission architecture modeling: ensuring mission objectives can be met by the combination of human performance and system capability, informing mission architecture selection, and automated FDIR",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>This challenge resulted in a lightweight solution. that performs advanced co-registration on images taken of the same area. In terms of solution accuracy, this solution meets the required industry standard accuracy of LROC Pixels with the following results across a three point spread: - Industry Standard: 32, 28, 6 - New Solution: 43, 25, 5 The value of this solution is that the Office of Chief Scientist and developers at JPL plan to use the solution as part of an integrated tool that will be made available to citizen scientists to identify differences in lunar images of the same area. It has been posted publicly for amateur astronomers and academia to use in their pursuits. The source code is posted here https://github.com/topcoderinc/lunar-imaging. Of note, the code itself has been loaded onto computers at JPL and any further development will be maintained internal to NASA.<br />Significantly Advanced Towards a Solution<br />Planned for future implementation<br />Software/App</p>",
+    "description": "NASA has new data from the moon and images from the early 1970s. The Office of the Chief Scientist is seeking development of a software application - Lunar Mission Coregistration Tool (LMCT) that will process publicly available imagery files from past lunar missions and will enable manual comparison to imagery from the Lunar Reconnaissance Orbiter (LRO) mission. The imagery processed by this software will be used in existing citizen science applications to identify long lost spacecraft components as well as natural impacts to the lunar surface. They're teaming up with the Topcoder community to develop this application In this challenge, competitors are asked to develop the first version of this image registration tool. Specifically, this tool should be able to process various images, such as images captured under different lighting conditions, different spacecraft/camera characteristics, different observation geometries etc.",
+    "startYear": 2020,
+    "startMonth": 10,
+    "endYear": 2021,
+    "endMonth": 9,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 195150,
+            "canUserEdit": false,
+            "firstName": "James",
+            "lastName": "Green",
+            "fullName": "James L Green",
+            "fullNameInverted": "Green, James L",
+            "middleInitial": "L",
+            "primaryEmail": "james.green@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19242,
+            "projectId": 117519,
+            "transitionDate": "2021-09-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "September 2021"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "HQ",
+        "canUserEdit": false,
+        "city": "Washington",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4816,
+        "organizationName": "NASA Headquarters",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "DC",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "District of Columbia",
+            "stateTerritoryId": 26
+        },
+        "stateTerritoryId": 26,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10248,
+            "organizationName": "Appirio/Topcoder",
+            "organizationType": "Industry",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        },
+        {
+            "acronym": "OCS",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4869,
+            "organizationName": "Office of the Chief Scientist",
+            "organizationType": "NASA_Office",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Office"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Indianapolis",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9385,
+            "organizationName": "Topcoder",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "IN",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Indiana",
+                "stateTerritoryId": 37
+            },
+            "stateTerritoryId": 37,
+            "dunsNumber": "         ",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 49,
+    "endDateString": "Sep 2021",
+    "startDateString": "Oct 2020"
+}

@@ -1,0 +1,192 @@
+{
+    "acronym": "",
+    "projectId": 117545,
+    "title": "Honey, I Shrunk the NASA Payload, the Sequel - Phase 1",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10740,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10739,
+            "level": 2,
+            "code": "TX08.1",
+            "title": "Remote Sensing Instruments/Sensors",
+            "definition": "Remote sensing instruments and sensors include components, sensors, and instruments sensitive to electromagnetic radiation; particles (charged, neutral, dust); electromagnetic fields, both direct current (DC) and alternating current (AC); acoustic energy; seismic energy; or whatever physical phenomenology the science requires. These instruments and sensors can be either active or passive devices in practice, depending upon the measurement regime and detection technology.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>10 eligible submissions received for proposed miniature payload development plans.<br />Solved<br />Planned for future implementation<br />Prototype/Hardware</p>",
+    "description": "In the previous Honey, I Shrunk the NASA Payload Challenge, 14 teams were recognized and awarded for their insightful and creative approaches to developing miniature payloads that will help collect information about the lunar environment and potential lunar resources. This challenge offers those winning teams the opportunity to vie for up to $800,000 in development funds and prizes. There will be an opportunity for teams to build out their ranks and fill in missing areas of expertise. Additionally, in order to help teams be as successful as possible, both phases will include opportunities for NASA to review team plans and/or their progress and to provide specific, individual feedback.",
+    "startYear": 2020,
+    "startMonth": 8,
+    "endYear": 2022,
+    "endMonth": 7,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 4119706,
+            "canUserEdit": false,
+            "firstName": "Sabah",
+            "lastName": "Bux",
+            "fullName": "Sabah Bux",
+            "fullNameInverted": "Bux, Sabah",
+            "primaryEmail": "sabah.bux@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19244,
+            "projectId": 117545,
+            "transitionDate": "2022-07-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "July 2022"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JPL",
+        "canUserEdit": false,
+        "city": "Pasadena",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 4946,
+        "organizationName": "Jet Propulsion Laboratory",
+        "organizationType": "FFRDC_2fUARC",
+        "stateTerritory": {
+            "abbreviation": "CA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "California",
+            "stateTerritoryId": 59
+        },
+        "stateTerritoryId": 59,
+        "naorganization": false,
+        "organizationTypePretty": "FFRDC/UARC"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Wilmington",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 129,
+            "organizationName": "HeroX",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "DE",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Delaware",
+                "stateTerritoryId": 16
+            },
+            "stateTerritoryId": 16,
+            "dunsNumber": "         ",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 44,
+    "endDateString": "Jul 2022",
+    "startDateString": "Aug 2020"
+}

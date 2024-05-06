@@ -1,0 +1,184 @@
+{
+    "acronym": "",
+    "projectId": 157150,
+    "title": "CC22 NASA Particle Partition Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10683,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10682,
+            "level": 3,
+            "code": "TX06.1.1",
+            "title": "Atmosphere Revitalization",
+            "definition": "Atmosphere revitalization maintains a safe and habitable atmosphere within a spacecraft, surface vehicle, or habitat.",
+            "exampleTechnologies": "CO2 removal (closed loop), oxygen recovery, trace contaminant control, particulate and microbial control, cabin ventilation, oxygen supply, high-pressure oxygen supply",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>This challenge and the prize money provided NASA with 6 potential solutions/ideas to remove soot-like carbon particulate material from a Bosch reactor. These are relatively early stage ideas. However, the NASA challenge team selected these 6 solutions due to the potential they hold for further exploration. The solutions included: 1. A set of rotating ESPs that continuously cleans its collecting plates through rotation and vibration. 2. A spinning bell filter to prevent clogging, utilizing the Coanda effect. 3. A continuous mechanical solution in which supported membrane filters are renewed by a cleaning cycle involving ultrasonic action. 4. A solution consisting of a series of self-cleaning metal frit filters on revolving changer disks to filter carbon particles from a gas stream and a mechanical auger to convey loose particles into a collection container. 5. A self-regenerating inertial impact filter made of a novel oscillatory shape memory alloy helical stack impactor that uses inertia in microgravity. 6. A buckypaper filter-based particle capture technique for any gravity level, with high water recovery and ultrasound-enhanced performance.<br />Significantly Advanced Towards a Solution<br />Planned for future implementation<br />Technical Solution</p>",
+    "description": "<p>Currently under development at NASA, the Continuous Bosch Reactor leverages the Bosch reaction to recycle waste CO2 into water vapor, which is condensed and used as a source of oxygen for the crew to breathe. A major issue that prevents the implementation of the reactor is the safe and efficient removal of its carbon byproduct. As much as 1 kg (2.2 lbs) is produced per day if all the crew's CO2 is processed. The carbon forms as fine particles, which can foul filters and downstream condensers. If effectively collected, there is potential for the carbon to be repurposed or prepared for disposal. This challenge seeks to identify novel ways that fine carbon particles can be safely and efficiently removed from a Bosch reactor, without impacting the reactor's performance. NASA is interested in compact, lightweight, and low power solutions that will easily integrate into a continuous Bosch reactor, effecting reliable and continuous separation of carbon particulates that are formed during the Bosch reaction.</p>",
+    "startYear": 2022,
+    "startMonth": 8,
+    "endYear": 2023,
+    "endMonth": 4,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 1778581,
+            "canUserEdit": false,
+            "firstName": "Daniel",
+            "lastName": "Barta",
+            "fullName": "Daniel J Barta",
+            "fullNameInverted": "Barta, Daniel J",
+            "middleInitial": "J",
+            "primaryEmail": "daniel.j.barta@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "Wilmington",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 129,
+            "organizationName": "HeroX",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "DE",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Delaware",
+                "stateTerritoryId": 16
+            },
+            "stateTerritoryId": 16,
+            "dunsNumber": "         ",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 12,
+    "endDateString": "Apr 2023",
+    "startDateString": "Aug 2022"
+}

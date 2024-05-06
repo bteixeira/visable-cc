@@ -1,0 +1,189 @@
+{
+    "acronym": "",
+    "projectId": 117529,
+    "title": "Aftershock: NASA Shock Propagation Prediction Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10868,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10864,
+            "level": 3,
+            "code": "TX12.2.4",
+            "title": "Tests, Tools and Methods",
+            "definition": "An integrated package of hardware and software allows high-fidelity model correlation at the vehicle level to better understand vehicle response to flight environments and to better incorporate this information to advance certification, reliability, and sustainment for aerospace applications.",
+            "exampleTechnologies": "Integrated flight test data identification model, full field data acquisition system and model verification and validation, virtual digital certification method and system, virtual digital fleet leader testing",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "additionalTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10889,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10886,
+            "level": 3,
+            "code": "TX12.5.3",
+            "title": "Shock & Impact",
+            "definition": "This area covers enhanced modeling and correlation tools and techniques with test validation",
+            "exampleTechnologies": "Shock analysis methods and tools, impact blast and fragmentation assessment tools",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>The challenge sought solutions in the form of shock prediction using the ShockSat dataset and white papers to help NASA improve predictions of how shock loads travel through a spacecraft. Contestants were asked to use a collection of acceleration measurements from around the ShockSat test structure to predict the shock experienced at other points on the testbed. Their white papers described the methodology applied to predict the shock, speed and hardware considerations, and the versatility/extensibility of the solution. A summary of the submissions is included in the Additional Challenge Asset titled “NOIS2-031 - Additional Challenge Asset 1- Summary of Winning Submissions”. A copy of the Close-Out meeting slides are also attached in the Additional Challenge Asset titled “NOIS2-031 - Close-Out Meeting Slides Final”. As the lessons learned were too long for the text box, we attached it as a document in the Additional Challenge Asset titled “NOIS2-031 - Lessons Learned”<br />Incrementally Advanced Towards a Solution<br />Not going to be used/implemented<br />Algorithm</p>",
+    "description": "<p>NASA's Langley Research Center (LaRC) in collaboration with Freelancer.com and LMI teamed up to launch a new challenge - Aftershock: NASA Shock Propagation Prediction Challenge. This challenge looks for novel shock propagation prediction models that improve their ability to predict shock loads through spacecraft. NASA currently utilizes techniques from the 1970s, and hopes to improve the accuracy and versatility/extensibility of the propagation models while maintaining usability (time and cost). The Aftershock Challenge gives contestants the opportunity to provide the most accurate prediction for impact propagation through a simulated spacecraft structure and share in the $50,000 prize purse. To participate, contestants will need to provide their prediction data for the scenarios provided and describe their methodology, the time it takes to run their model, and the computer setup they used.</p>",
+    "startYear": 2021,
+    "startMonth": 11,
+    "endYear": 2022,
+    "endMonth": 8,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 186864,
+            "canUserEdit": false,
+            "firstName": "Isam",
+            "lastName": "Yunis",
+            "fullName": "Isam S Yunis",
+            "fullNameInverted": "Yunis, Isam S",
+            "middleInitial": "S",
+            "primaryEmail": "isam.yunis@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19219,
+            "projectId": 117529,
+            "transitionDate": "2022-08-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "August 2022"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "LaRC",
+        "canUserEdit": false,
+        "city": "Hampton",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4852,
+        "organizationName": "Langley Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "VA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Virginia",
+            "stateTerritoryId": 7
+        },
+        "stateTerritoryId": 7,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9384,
+            "organizationName": "Freelancer",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 60,
+    "endDateString": "Aug 2022",
+    "startDateString": "Nov 2021"
+}

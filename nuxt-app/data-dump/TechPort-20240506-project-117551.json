@@ -1,0 +1,205 @@
+{
+    "acronym": "",
+    "projectId": 117551,
+    "title": "Asteroid Data Hunter",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10819,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10818,
+            "level": 3,
+            "code": "TX11.2.1",
+            "title": "Software Modeling and Model Checking",
+            "definition": "Software modeling and modeling checking (also known as Defect Identification and Mitigation) technologies utilize or create models of the software logic and data flows within the larger system context in order to analyze cyber-physical interactions, generate semantically well-formed source code, or generate tests for full code coverage.",
+            "exampleTechnologies": "Hybrid model checking, automated software testing environment, software development environment with program synthesis",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>The results of the first algorithm contest were impressive and contributed to the quality of the algorithms delivered for the second contest.  Three of the winning algorithms from the second contest each performed a particular function better than the other two.  As a result, the three were combined into a single “super” algorithm.  To date, the second contest resulted in a definite improvement in the number of asteroids identified in the main belt; however, testing is currently underway to determine if it works as well using a data set rich in near-Earth objects.  The results to date do represent a real opportunity to identify more asteroids in the CSS data.  The software release will occur in the first quarter of calendar year 2015 and will provide amateur astronomers with access to new tools in the asteroid hunting arsenal.  The results of this challenge continue to support the use of crowd-sourced algorithms to advance NASA’s image processing capabilities. The algorithm was determined to be 15% better than the current method for identifying asteroids in the main belt between Mars and Jupiter.  The application is now being sustained by PRI, Inc.,  After SXSW there had been 1900 downloads for Windows machines and 400 for Macs. <br />Solved<br />In use or implemented<br />Algorithm</p>",
+    "description": "<p>NASA desires a more computationally efficient, general purpose algorithm to detect moving objects using Catalina Sky Survey (CSS) data. Specifically, to increase the detection sensitivity, minimize the number of false positives, ignore imperfections in the data, and ensure that the algorithm can run effectively on all computers.</p>",
+    "startYear": 2014,
+    "startMonth": 1,
+    "endYear": 2015,
+    "endMonth": 1,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 2279876,
+            "canUserEdit": false,
+            "firstName": "Victoria",
+            "lastName": "Friedensen",
+            "fullName": "Victoria Friedensen",
+            "fullNameInverted": "Friedensen, Victoria",
+            "primaryEmail": "victoria.p.friedensen@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        },
+        {
+            "contactId": 4119705,
+            "canUserEdit": false,
+            "firstName": "Victoria",
+            "lastName": "Friedensen",
+            "fullName": "Victoria Friedensen",
+            "fullNameInverted": "Friedensen, Victoria",
+            "primaryEmail": "victoria.friedensen@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "organizationTypePretty": "NASA Mission Directorate",
+        "naorganization": false
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "organizationTypePretty": "NASA Mission Directorate",
+            "naorganization": false
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "HQ",
+        "canUserEdit": false,
+        "city": "Washington",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4816,
+        "organizationName": "NASA Headquarters",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "DC",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "District of Columbia",
+            "stateTerritoryId": 26
+        },
+        "stateTerritoryId": 26,
+        "organizationTypePretty": "NASA Center",
+        "naorganization": false
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10248,
+            "organizationName": "Appirio/Topcoder",
+            "organizationType": "Industry",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        },
+        {
+            "canUserEdit": false,
+            "city": "Indianapolis",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9385,
+            "organizationName": "Topcoder",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "IN",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Indiana",
+                "stateTerritoryId": 37
+            },
+            "stateTerritoryId": 37,
+            "dunsNumber": "         ",
+            "organizationTypePretty": "Industry",
+            "naorganization": false
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 67,
+    "endDateString": "Jan 2015",
+    "startDateString": "Jan 2014"
+}

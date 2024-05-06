@@ -21,7 +21,7 @@ const offset = computed(() => (page.value - 1) * pageSize.value)
 const updatedSince = computed(() => Number(route.query.updatedSince) || DEFAULT_UPDATED_SINCE)
 const updatedSinceDate = computed(() => getUpdatedSinceDate(updatedSince.value))
 
-const {pending, data} = useFetch<PaginatedProjects>('/api/projects', {
+const {pending, data} = await useFetch<PaginatedProjects>('/api/projects', {
     query: {
         limit: pageSize,
         offset,

@@ -1,0 +1,174 @@
+{
+    "acronym": "",
+    "projectId": 4815,
+    "title": "Space Tether",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10864,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10854,
+            "level": 2,
+            "code": "TX12.2",
+            "title": "Structures",
+            "definition": "This area covers lightweight, robust, multifunctional, smart structures that are reliable and predictable.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "additionalTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10855,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10854,
+            "level": 2,
+            "code": "TX12.1",
+            "title": "Materials",
+            "definition": "This area covers synthesized and tailored materials that have multiple functions to meet specific mission needs.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "currentTrl": 4,
+    "endTrl": 4,
+    "benefits": "<p>The Strong Tether Challenge is driving material science technologies to create long, very strong cables (known as tethers) with the exceptionally high strength-to-weight ratio. Such tethers will enable advances in aerospace capabilities including reduction in rocket mass, habitable space structures, tether-based propulsion systems, solar sails, and even space elevators. Dramatically stronger and lighter materials are also revolutionizing the engineering of down-to-earth structures such as aircraft bodies, sporting good equipment, and even structures of bridges and buildings.</p>",
+    "description": "<p>The 2011 Strong Tether Centennial Challenge was held at the <a href=\"http://spaceelevatorconference.org/default.aspx\">Space Elevator Conference</a> in Redmond, WA on August 12, 2011. The Space Elevator Conference, sponsored by Microsoft, The Leeward Space Foundation and The International Space Elevator Consortium has hosted the Tether competition for 5 years and for this, the fifth year, there has yet to be a winner. Although no competitor has been able to claim the Centennial Challenge prize, the strength exhibited in competing tethers has continued to increase over the years as new and innovative methods are discovered for fabricating tethers with carbon nano-tube technology.<br /><br />Dr. Bryan Laubscher of Odysseus Technologies and Flint Hamblin, an independent inventor, competed this year trying to achieve a tether strength of at least 5 MYuris. The goal of the Strong Tether Challenge is to develop a strong but lightweight tether. The unit of MYuri (N/kg/m) takes into account strength and weight of the sample being a measure of force carried per gram per length of tether sample.. A strong but heavy tether may have a lower Yuri value than a weaker but lighter sample. For a Space Elevator tether that may be 100,000 kilometers in length, both strength and weight are obviously important. While Bryan and Flint both entered tether samples that broke below the 5 MYuri threshold for a prize, they have continued to contribute to material science advancements in the use of carbon nano-tubes as a strengthening material.<br /><br />Odysseus Technologies is a business venture started by Dr. Laubscher to advance the use of carbon nano-tubes in engineering materials design and use.<br /><br />The Strong Tether Challenge is driving material science technologies to create long, very strong cables (known as tethers) with the exceptionally high strength-to-weight ratio. Such tethers will enable advances in aerospace capabilities including reduction in rocket mass, habitable space structures, tether-based propulsion systems, solar sails, and even space elevators. Dramatically stronger and lighter materials are also revolutionizing the engineering of down-to-earth structures such as aircraft bodies, sporting good equipment, and even structures of bridges and buildings.<br /><br />This challenge offers a prize purse of $2 million. Competitions have been held in 2006, 2007, 2009, 2010 and 2011. As yet no team has claimed the prize.</p>",
+    "startYear": 2012,
+    "startMonth": 10,
+    "endYear": 2014,
+    "endMonth": 9,
+    "statusDescription": "Completed",
+    "principalInvestigators": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [
+        {
+            "transitionId": 19218,
+            "projectId": 4815,
+            "transitionDate": "2014-09-01",
+            "path": "Closed Out",
+            "details": "<p>Challenge ran for 5 years, but no competitor was selected as a winner of the challenge.</p>",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "September 2014"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "coFundingPartners": [
+        {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        }
+    ],
+    "statesWithWork": [
+        {
+            "abbreviation": "WA",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Washington",
+            "stateTerritoryId": 11
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 477,
+    "endDateString": "Sep 2014",
+    "startDateString": "Oct 2012"
+}

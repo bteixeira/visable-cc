@@ -1,0 +1,216 @@
+{
+    "acronym": "",
+    "projectId": 154830,
+    "title": "Radiation Tolerant Displays",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10566,
+            "taxonomyRootId": 8816,
+            "level": 1,
+            "code": "TX02",
+            "title": "Flight Computing and Avionics",
+            "definition": "All forms of space systems require some aspect of electronics and computing capability. This section captures the unique hardware aspects of those capabilities when applied to flight systems, whether in space or atmospheric.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "additionalTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10688,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10681,
+            "level": 2,
+            "code": "TX06.2",
+            "title": "Extravehicular Activity Systems",
+            "definition": "Extravehicular activity (EVA) systems are those associated with enabling astronauts to perform work outside of a spacecraft’s habitable environment.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        },
+        {
+            "taxonomyNodeId": 10691,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10688,
+            "level": 3,
+            "code": "TX06.2.3",
+            "title": "Informatics and Decision Support Systems",
+            "definition": "The Informatics system collects and transfers several types of non-critical data to and from other mission assets, provides avionics hardware to perform numerous data display and in-suit processing functions, and furnishes information and decision support systems to supply data and guidance that enables crewmembers to perform their tasks with more autonomy, higher performance, and/or greater efficiency.",
+            "exampleTechnologies": "EVA informatics, suit-integrated personal locating technologies, graphical displays, advanced crew to informatics interfaces",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        },
+        {
+            "taxonomyNodeId": 10681,
+            "taxonomyRootId": 8816,
+            "level": 1,
+            "code": "TX06",
+            "title": "Human Health, Life Support, and Habitation Systems",
+            "definition": "This section covers technologies that are specific to the human element and directly affect crew needs for survival and wellbeing, including the environment to which the crew is exposed and interfaces that crewmembers encounter.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "startTrl": 2,
+    "currentTrl": 4,
+    "endTrl": 6,
+    "benefits": "<p>A fully developed display system architecture will be available for use across all deep-space missions, including Artemis and beyond to Mars, leveraging work from radiation-tolerant NASA-funded and SBIR projects. The display system will possess the ability to reliably provide pertinent information and data to the crew member when they need it, increasing crew safety and efficiency. The scalable and modular nature of the display system, combined with intrinsic and by design radiation tolerance, makes it durable and easy to maintain, meaning lower mass for resupply missions which equates to lower cost.</p> ",
+    "description": "<p>The Radiation Tolerant Displays project aims to develop a reference design for a display and computer system that can withstand and mitigate the effects of radiation in deep space. Radiation Tolerant Displays seeks to deliver on this goal through a collaboration across industry and agency and by building upon the Mars Campaign Office’s Project Polaris Radiation-Tolerant Displays effort.</p> ",
+    "destinations": [
+        {
+            "lkuCodeId": 1544,
+            "code": "MOON_AND_CISLUNAR",
+            "description": "Moon and Cislunar",
+            "lkuCodeTypeId": 526,
+            "lkuCodeType": {
+                "codeType": "DESTINATION_TYPE",
+                "description": "Destination Type"
+            }
+        },
+        {
+            "lkuCodeId": 1518,
+            "code": "MARS",
+            "description": "Mars",
+            "lkuCodeTypeId": 526,
+            "lkuCodeType": {
+                "codeType": "DESTINATION_TYPE",
+                "description": "Destination Type"
+            }
+        }
+    ],
+    "startYear": 2022,
+    "startMonth": 10,
+    "endYear": 2025,
+    "endMonth": 9,
+    "statusDescription": "Active",
+    "principalInvestigators": [
+        {
+            "contactId": 478159,
+            "canUserEdit": false,
+            "displayOrder": 1,
+            "firstName": "Tyler",
+            "lastName": "Garrett",
+            "fullName": "Tyler M Garrett",
+            "fullNameInverted": "Garrett, Tyler M",
+            "middleInitial": "M",
+            "primaryEmail": "tyler.garrett@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 164841,
+            "canUserEdit": false,
+            "displayOrder": 1,
+            "firstName": "Geraldo",
+            "lastName": "Cisneros",
+            "fullName": "Geraldo A Cisneros",
+            "fullNameInverted": "Cisneros, Geraldo A",
+            "middleInitial": "A",
+            "primaryEmail": "geraldo.a.cisneros@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 309666,
+            "title": "Towards a Radiation Tolerant Display ",
+            "libraryItemTypeId": 1222,
+            "projectId": 154830,
+            "publishedBy": "",
+            "publishedDateString": "Jan 2024",
+            "contentType": {
+                "lkuCodeId": 1222,
+                "code": "DOCUMENT",
+                "description": "Document",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [],
+    "responsibleMd": {
+        "acronym": "ESDMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 9525,
+        "organizationName": "Exploration Systems Development Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "EHP",
+        "active": true,
+        "programId": 92311,
+        "responsibleMd": {
+            "acronym": "ESDMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 9525,
+            "organizationName": "Exploration Systems Development Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 9525,
+        "title": "EVA and Human Surface Mobility"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "statesWithWork": [
+        {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 10,
+    "endDateString": "Sep 2025",
+    "startDateString": "Oct 2022"
+}

@@ -1,0 +1,239 @@
+{
+    "acronym": "",
+    "projectId": 117518,
+    "title": "CC20 NASA Spacesuit Detection Challenge",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10691,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10688,
+            "level": 3,
+            "code": "TX06.2.3",
+            "title": "Informatics and Decision Support Systems",
+            "definition": "The Informatics system collects and transfers several types of non-critical data to and from other mission assets, provides avionics hardware to perform numerous data display and in-suit processing functions, and furnishes information and decision support systems to supply data and guidance that enables crewmembers to perform their tasks with more autonomy, higher performance, and/or greater efficiency.",
+            "exampleTechnologies": "EVA informatics, suit-integrated personal locating technologies, graphical displays, advanced crew to informatics interfaces",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "benefits": "<p>Challenge Launched on March 31st ended on May 03rd : https://www.topcoder.com/challenges/116fc3d9-a4e0-4a93-8ef1-a075ae16ee88?tab=details Heroku DashBoard URL: https://spacesuit-dash.herokuapp.com/ Final Tracking Sheet : https://docs.google.com/spreadsheets/d/15ayDfNGk21pH_UpTSVs0gmLI8paqIeLDdM_aseJlSKE/edit?usp=sharing Marathon Match Summary: https://docs.google.com/presentation/d/1HBUF9dIMJ7yL0_-MlRgtuPckF47idnShtaUoZ34wJeQ/edit?usp=sharing Final Deliverables: https://drive.google.com/drive/folders/16xhMOe22ZDn185O5My4xghnDLn1EgjC_<br />Solved<br />Planned for future implementation<br />Algorithm</p>",
+    "description": "A spacesuit has unique movement patterns that can be observed during spacewalks or Extravehicular Activities (EVA), and mobility assessments are needed to discern and mitigate suit injury risk. It is very difficult to measure spacesuit motion in uncontrolled environments such as training facilities, and a novel method is needed to quantify spacesuit motions from conventional and readily available video and photographs without requiring or needing motion capture cameras. Once validated for the accuracy and reliability of the posture extractions, the selected system will be deployed to estimate the EVA postures in current and future missions and analog training events. The framework will be applicable to Neutral Buoyancy Lab (NBL) and Active Response Gravity Offload System (ARGOS) testing, which will help to optimize training procedures. Additionally, the winning solution will be tested and validated on video recordings collected during the next-generation spacesuit testing. NASA is seeking novel solutions to label and identify spacesuit motions from conventional and readily available video and photographs to overcome current system limitations in terms of cost and training feasibility. The winning computer vision algorithms are expected to have the ability to: Detect spacesuits in a variety of environments and lightning conditions. Correctly discriminate between an ?unsuited? person and a spacesuit. Robustly extract suit postures from images partially occluded. Capable of functioning with a single or multiple spacesuits.",
+    "startYear": 2021,
+    "startMonth": 1,
+    "endYear": 2021,
+    "endMonth": 8,
+    "statusDescription": "Completed",
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "projectManagers": [
+        {
+            "contactId": 294237,
+            "canUserEdit": false,
+            "firstName": "Linh",
+            "lastName": "Vu",
+            "fullName": "Linh Q Vu",
+            "fullNameInverted": "Vu, Linh Q",
+            "middleInitial": "Q",
+            "primaryEmail": "linh.q.vu@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        },
+        {
+            "contactId": 4119708,
+            "canUserEdit": false,
+            "firstName": "Lihn",
+            "lastName": "Vu",
+            "fullName": "Lihn Vu",
+            "fullNameInverted": "Vu, Lihn",
+            "primaryEmail": "lihn.vu@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 310475,
+            "title": "NASA Space Suit Movement - Marathon Match Summary",
+            "description": "",
+            "libraryItemTypeId": 1222,
+            "projectId": 117518,
+            "primary": false,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "",
+            "contentType": {
+                "lkuCodeId": 1222,
+                "code": "DOCUMENT",
+                "description": "Document",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "transitionId": 19234,
+            "projectId": 117518,
+            "transitionDate": "2021-08-01",
+            "path": "Closed Out",
+            "infoText": "Closed out",
+            "infoTextExtra": "",
+            "dateText": "August 2021"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "JSC",
+        "canUserEdit": false,
+        "city": "Houston",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4853,
+        "organizationName": "Johnson Space Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "TX",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Texas",
+            "stateTerritoryId": 29
+        },
+        "stateTerritoryId": 29,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "canUserEdit": false,
+            "city": "",
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 10248,
+            "organizationName": "Appirio/Topcoder",
+            "organizationType": "Industry",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Indianapolis",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 9385,
+            "organizationName": "Topcoder",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "IN",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Indiana",
+                "stateTerritoryId": 37
+            },
+            "stateTerritoryId": 37,
+            "dunsNumber": "         ",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 100,
+    "endDateString": "Aug 2021",
+    "startDateString": "Jan 2021"
+}

@@ -1,0 +1,341 @@
+{
+    "acronym": "",
+    "projectId": 117524,
+    "title": "Watts on the Moon - Phase 2",
+    "primaryTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10606,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10604,
+            "level": 3,
+            "code": "TX03.3.2",
+            "title": "Distribution and Transmission",
+            "definition": "Distribution and transmission includes the switchgear, wiring, and other components necessary for electric power transmission, wired or wireless, as well as the fault protection aspects of the distribution system.",
+            "exampleTechnologies": "High-conductivity carbon nanotube wire, high-voltage power distribution, modular switchgear development, and all forms of wireless power transmission (magnetic, radio frequency, and optical)",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "additionalTaxonomyNodes": [
+        {
+            "taxonomyNodeId": 10607,
+            "taxonomyRootId": 8816,
+            "parentNodeId": 10604,
+            "level": 3,
+            "code": "TX03.3.3",
+            "title": "Electrical Power Conversion and Regulation",
+            "definition": "Electrical power conversion and regulation focuses on electrical power conversion from one form to another, including power regulators, power converter topologies and architectures, and modular standards for conversion.",
+            "exampleTechnologies": "Modular power converters, electrical propulsion power processing units (power electronics related to electric propulsion), high voltage power topologies for instrument power supplies",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        },
+        {
+            "taxonomyNodeId": 10681,
+            "taxonomyRootId": 8816,
+            "level": 1,
+            "code": "TX06",
+            "title": "Human Health, Life Support, and Habitation Systems",
+            "definition": "This section covers technologies that are specific to the human element and directly affect crew needs for survival and wellbeing, including the environment to which the crew is exposed and interfaces that crewmembers encounter.",
+            "hasChildren": false,
+            "hasInteriorContent": true
+        }
+    ],
+    "startTrl": 2,
+    "currentTrl": 2,
+    "endTrl": 4,
+    "benefits": "<p>As part of the Artemis program, NASA will send astronauts to new areas of the Moon including the lunar South Pole, and prepare for human exploration of Mars.  Sustainable missions will require an unprecedented capacity for power.  Astronauts will need a continuous supply of power from multiple sources to live and work on the Moon for long periods.  A flexible and robust system for surface power is key to safe and robust lunar exploration.  Not only could novel solutions make a difference in lunar and space exploration, but technologies discovered during this Centennial Challenge could help facilitate new power options on Earth.</p>",
+    "description": "<p>As NASA works to extend human exploration of the solar system, unprecendented capacity for energy distribution management, and storage will be needed to support a sustained human presence and the beginning of industrial activity.  NASA's Watts on the Moon Challenge seeks solutions for energy distribution, management, and/or storage that address NASA's technology gaps, and can be further developed for space flight and future operation on the lunar surface.</p><p> </p><p>Watts on the Moon, Phase 1 ran from 9/25/2020 to 5/20/2021.  Phase 2 began 2/23/22.  This challenge is still ACTIVE.</p>",
+    "startYear": 2022,
+    "startMonth": 2,
+    "endYear": 2024,
+    "endMonth": 9,
+    "statusDescription": "Active",
+    "principalInvestigators": [
+        {
+            "contactId": 117493,
+            "canUserEdit": false,
+            "firstName": "Denise",
+            "lastName": "Morris",
+            "fullName": "Denise P Morris",
+            "fullNameInverted": "Morris, Denise P",
+            "middleInitial": "P",
+            "primaryEmail": "denise.morris@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programDirectors": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programExecutives": [
+        {
+            "contactId": 17615,
+            "canUserEdit": false,
+            "firstName": "Amy",
+            "lastName": "Kaminski",
+            "fullName": "Amy P Kaminski",
+            "fullNameInverted": "Kaminski, Amy P",
+            "middleInitial": "P",
+            "primaryEmail": "amy.p.kaminski@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "programManagers": [
+        {
+            "contactId": 347352,
+            "canUserEdit": false,
+            "firstName": "Monserrate",
+            "lastName": "Roman",
+            "fullName": "Monserrate C Roman",
+            "fullNameInverted": "Roman, Monserrate C",
+            "middleInitial": "C",
+            "primaryEmail": "monsi.roman@nasa.gov",
+            "publicEmail": true,
+            "nacontact": false
+        }
+    ],
+    "website": "",
+    "libraryItems": [
+        {
+            "files": [],
+            "id": 310488,
+            "title": "NASA Awards $500K in First Phase of $5M Watts on the Moon Challenge",
+            "description": "<p>To compete in Phase 1, eligible teams had six months to register and submit ideas for up to three parts of a hypothetical mission scenario – harvesting water and oxygen from a dark crater at the Moon's South Pole with energy generated by a power plant located on the crater's outer rim.</p><p> </p><p>The mission scenario included three different activities with different needs for power or energy capacity, different distances from the primary power source, different mobility features, and different operational duty cycles. The panel of judges from government, industry, and academia <a href=\"https://www.herox.com/WattsOnTheMoon/guidelines\">scored submissions</a> on their scientific and technical merit, applicability, feasibility, and development potential with extra points awarded for solutions that could benefit Earth.</p><p> </p><p>The first mission activity challenged teams to deliver power from the power plant to a mobility platform, or rover, operating inside the crater. The mobility platform collects and delivers icy regolith to the water extraction plant. Astrobotic, the $100,000 grand prize winner in this category, proposed a fleet of small tethered rovers that lay out and connect power cables between the power plant and mobility platform. KC Space Pirates, a team of inventors and space enthusiasts, and UC Santa Barbara's team Moonlight each won $50,000 for their proposed laser power beaming concepts.</p><p>The next mission scenario tasked teams with delivering power from the power plant to a water extraction plant inside the crater. Michigan Technological University's Planetary Surface Technology Development Lab won the $100,000 grand prize in this category for their proposed system of tethered rovers that unspool superconducting wire into the crater. Astrolight – a collaboration between Astrobotic and Montreal startup Eternal Light Photonics Corp. – won $50,000 for its wireless mobile power beaming solution. And Team FuelPod from Orion AI Labs, an applied robotic research institution, won $50,000 for its intelligent microgrid concept that uses machine learning and a modular system of lithium ion battery-powered pods.</p><p> </p><p>Mission activity three involved delivering power to an oxygen-producing plant outside the crater. Skycorp Inc. won the $100,000 grand prize for its innovative system of power cells and intelligent interfaces for storing and distributing power through the lunar month's extreme light and temperature changes.</p><p> </p><p>\"Congratulations to our Phase 1 winners of NASA’s Watts on the Moon Challenge,\" said Dr. Marla Pérez-Davis, director of the agency’s Glenn Research Center in Cleveland. \"Not only could these award-winning concepts make a difference in space exploration, but technologies discovered during the competition could drive clean energy innovation and make a positive impact on Earth.\"</p>",
+            "libraryItemTypeId": 1091,
+            "projectId": 117524,
+            "primary": false,
+            "publishedBy": "",
+            "publishedDateString": "",
+            "url": "",
+            "contentType": {
+                "lkuCodeId": 1091,
+                "code": "STORY",
+                "description": "Story",
+                "lkuCodeTypeId": 341,
+                "lkuCodeType": {
+                    "codeType": "LIBRARY_ITEM_TYPE",
+                    "description": "Library Item Type"
+                }
+            }
+        }
+    ],
+    "transitions": [
+        {
+            "transitionId": 19240,
+            "projectId": 117524,
+            "partner": "Other",
+            "transitionDate": "2022-02-01",
+            "path": "Advanced From",
+            "relatedProjectId": 106558,
+            "relatedProject": {
+                "acronym": "",
+                "projectId": 106558,
+                "title": "Watts on the Moon - Phase 1",
+                "startTrl": 2,
+                "currentTrl": 4,
+                "endTrl": 4,
+                "benefits": "<p>As part of the Artemis program, NASA will send astronauts to new areas of the Moon including the lunar South Pole, and prepare for human exploration of Mars. Sustainable missions will require an unprecedented capacity for power. Astronauts will need a continuous supply of power from multiple sources to live and work on the Moon for long periods. A flexible and robust system for surface power is key to safe and robust lunar exploration.  Not only could novel solutions make a difference in lunar and space exploration, but technologies discovered during this Centennial Challenge could help facilitate new power options on Earth.</p>",
+                "description": "<p>As NASA works to extend human exploration of the solar system, unprecedented capacity for energy distribution, management, and storage will be needed to support a sustained human presence and the beginning of industrial activity. NASA’s Watts on the Moon Challenge seeks solutions for energy distribution, management, and/or storage that address NASA technology gaps and can be further developed for space flight and future operation on the lunar surface.</p><p>Watts on the Moon, Phase 1 ran from 9/25/2020 to May 20, 2021.  Phase 2 began Oct. 20, 2021.  This challenge is still ACTIVE.</p>",
+                "startYear": 2020,
+                "startMonth": 9,
+                "endYear": 2021,
+                "endMonth": 5,
+                "statusDescription": "Completed",
+                "website": "",
+                "program": {
+                    "acronym": "PCC",
+                    "active": true,
+                    "programId": 63,
+                    "responsibleMd": {
+                        "acronym": "STMD",
+                        "canUserEdit": false,
+                        "city": "",
+                        "external": false,
+                        "linkCount": 0,
+                        "organizationId": 4875,
+                        "organizationName": "Space Technology Mission Directorate",
+                        "organizationType": "NASA_Mission_Directorate",
+                        "naorganization": false,
+                        "organizationTypePretty": "NASA Mission Directorate"
+                    },
+                    "responsibleMdId": 4875,
+                    "stockImageFileId": 36653,
+                    "title": "Prizes, Challenges, and Crowdsourcing"
+                },
+                "lastUpdated": "2024-4-22",
+                "releaseStatusString": "Released",
+                "viewCount": 10477,
+                "endDateString": "May 2021",
+                "startDateString": "Sep 2020"
+            },
+            "infoText": "Advanced from another project within the program",
+            "infoTextExtra": "Another project within the program (Watts on the Moon - Phase 1)",
+            "dateText": "February 2022"
+        }
+    ],
+    "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+        "acronym": "PCC",
+        "active": true,
+        "programId": 63,
+        "responsibleMd": {
+            "acronym": "STMD",
+            "canUserEdit": false,
+            "city": "",
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4875,
+            "organizationName": "Space Technology Mission Directorate",
+            "organizationType": "NASA_Mission_Directorate",
+            "naorganization": false,
+            "organizationTypePretty": "NASA Mission Directorate"
+        },
+        "responsibleMdId": 4875,
+        "stockImageFileId": 36653,
+        "title": "Prizes, Challenges, and Crowdsourcing"
+    },
+    "leadOrganization": {
+        "acronym": "MSFC",
+        "canUserEdit": false,
+        "city": "Huntsville",
+        "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4854,
+        "organizationName": "Marshall Space Flight Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        "stateTerritoryId": 18,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+        {
+            "acronym": "GRC",
+            "canUserEdit": false,
+            "city": "Cleveland",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": false,
+            "linkCount": 0,
+            "organizationId": 4860,
+            "organizationName": "Glenn Research Center",
+            "organizationType": "NASA_Center",
+            "stateTerritory": {
+                "abbreviation": "OH",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Ohio",
+                "stateTerritoryId": 23
+            },
+            "stateTerritoryId": 23,
+            "naorganization": false,
+            "organizationTypePretty": "NASA Center"
+        },
+        {
+            "canUserEdit": false,
+            "city": "Wilmington",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "external": true,
+            "linkCount": 0,
+            "organizationId": 129,
+            "organizationName": "HeroX",
+            "organizationType": "Industry",
+            "stateTerritory": {
+                "abbreviation": "DE",
+                "country": {
+                    "abbreviation": "US",
+                    "countryId": 236,
+                    "name": "United States"
+                },
+                "countryId": 236,
+                "name": "Delaware",
+                "stateTerritoryId": 16
+            },
+            "stateTerritoryId": 16,
+            "dunsNumber": "         ",
+            "naorganization": false,
+            "organizationTypePretty": "Industry"
+        }
+    ],
+    "statesWithWork": [
+        {
+            "abbreviation": "AL",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Alabama",
+            "stateTerritoryId": 18
+        },
+        {
+            "abbreviation": "OH",
+            "country": {
+                "abbreviation": "US",
+                "countryId": 236,
+                "name": "United States"
+            },
+            "countryId": 236,
+            "name": "Ohio",
+            "stateTerritoryId": 23
+        }
+    ],
+    "lastUpdated": "2024-4-22",
+    "releaseStatusString": "Released",
+    "viewCount": 3894,
+    "endDateString": "Sep 2024",
+    "startDateString": "Feb 2022"
+}
